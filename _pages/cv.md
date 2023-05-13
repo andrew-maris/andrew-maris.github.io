@@ -11,30 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.A. in Physics, Carleton College, 2019
+* Ph.D in Applied Plasma Physics, Massachusetts Institute of Technology, 2025 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2020 - Present: Research Assistant
+  * Massachusetts Institute of Technology
+  * Thesis project: Developing data-driven tools to understand, predict, and avoid "density limit" disruptions at DIII-D
+  * Side project: Modeling the impact of disruptions on the economics of a tokamak power plant 
+  * Supervisor: Dr. Robert Granetz, Dr. Cristina Rea, Dr. Earl Marmar, Professor Nuno Loureiro
 
-* Fall 2015: Research Assistant
+* Summer 2019, 2020: National Ignition Facility (NIF) Summer Scholar
   * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Duties included: Trained machine learning models to predict neutron yield of fusion experiments at NIF, provide physical insight into degradation mechanism
+  * Supervisor: Dr. Shahab Khan
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Plasma physics
+* Data science
+* Scientific machine learning/AI
+  * Symbolic regression
+  * Deep learning 
+* Public speaking
+* Technical writing
+* Fusion energy economic analysis
 
 Publications
 ======
@@ -54,6 +56,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
