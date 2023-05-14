@@ -12,7 +12,7 @@ determined by the degree of classical chaos.'
 date: 2021-08-06
 venue: 'Physical Review E'
 paperurl: 'https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.024206'
-citation: 'Maris et al. "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation." <i>Physical Review E</i> 104, no. 2 (2021).'
+citation: 'Maris, Andrew D., Bibek Pokharel, Sharan Ganjam Seshachallam, Moses ZR Misplon, and Arjendu K. Pattanayak. "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation." <i>Physical Review E</i> 104, no. 2 (2021).'
 ---
 We study the quantum dissipative Duffng oscillator across a range of system sizes and environ-
 mental couplings under varying semiclassical approximations. Using spatial (based on Kullback-
@@ -28,4 +28,4 @@ determined by the degree of classical chaos.
 
 [Download paper here](http://academicpages.github.io/files/2011.00118.pdf.pdf)
 
-Recommended citation: Maris et al. "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation." <i>Physical Review E</i> 104, no. 2 (2021).
+Recommended citation: Maris, Andrew D., Bibek Pokharel, Sharan Ganjam Seshachallam, Moses ZR Misplon, and Arjendu K. Pattanayak. "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation." <i>Physical Review E</i> 104, no. 2 (2021).
