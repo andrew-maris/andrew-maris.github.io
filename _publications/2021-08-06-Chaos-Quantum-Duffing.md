@@ -26,6 +26,6 @@ classically regular orbits can have the greatest quantum-classical differences i
 regime. In particular, we show that the dynamical growth of quantum-classical differences is not
 determined by the degree of classical chaos.
 
-[Download paper here](http://academicpages.github.io/files/2011.00118.pdf.pdf)
+[Download paper here](http://andrew-maris.github.io/files/2011.00118.pdf)
 
 Recommended citation: Maris, Andrew D., Bibek Pokharel, Sharan Ganjam Seshachallam, Moses ZR Misplon, and Arjendu K. Pattanayak. "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation." <i>Physical Review E</i> 104, no. 2 (2021).
