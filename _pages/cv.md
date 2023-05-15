@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+============
 * B.A. in Physics, Carleton College, 2019
 * Ph.D in Applied Plasma Physics, Massachusetts Institute of Technology, 2025 (expected)
 
@@ -50,11 +50,11 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Service and leadership
 ======
