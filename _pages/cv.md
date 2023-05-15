@@ -10,21 +10,20 @@ redirect_from:
 {% include base_path %}
 
 Education
-============
+======
 * B.A. in Physics, Carleton College, 2019
 * Ph.D in Applied Plasma Physics, Massachusetts Institute of Technology, 2025 (expected)
 
 Work experience
 ======
-* 2020 - Present: Research Assistant
+* Research Assistant (2020 - Present)
   * Massachusetts Institute of Technology
   * Thesis project: Developing data-driven tools to understand, predict, and avoid "density limit" disruptions at DIII-D
   * Side project: Modeling the impact of disruptions on the economics of a tokamak power plant 
   * Supervisor: Dr. Robert Granetz, Dr. Cristina Rea, Dr. Earl Marmar, Professor Nuno Loureiro
 
-* Summer 2019, 2020: National Ignition Facility (NIF) Summer Scholar
-  * Github University
-  * Duties included: Trained machine learning models to predict neutron yield of fusion experiments at NIF, provide physical insight into degradation mechanism
+* National Ignition Facility (NIF) Summer Scholar (Summer 2019, 2020)
+  * Trained machine learning models to predict neutron yield of fusion experiments at NIF, provide physical insight into degradation mechanism
   * Supervisor: Dr. Shahab Khan
   
 Skills
