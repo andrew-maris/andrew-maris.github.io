@@ -37,7 +37,7 @@ Skills
 * Technical writing
 * Fusion energy economic analysis
 
-Publications
+Publications and preprints
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
