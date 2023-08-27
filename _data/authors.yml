@@ -2,10 +2,10 @@
 
 Name Name:
   name        : "Andrew D. Maris"
-  uri         : "https://andrew-maris.github.io"
+  uri         : "http://andrew-maris.github.io"
   email       : "maris[at]mit.edu"
   bio         : "This is the first name."
-  avatar      : "profile3.jpg"
+  avatar      : "profile2.jpg"
   twitter     : "@Andrew_Maris"
   # google_plus : "Name"
 
