@@ -18,4 +18,4 @@ Andrew received a Bachelor's degree from Carleton College in 2019 with a major i
 Research
 ========
 
-Today, Andrew's research focuses on the "density limit" instability in tokamaks, one of the key limiting factors in these types of fusion experiments. He explores data-driven methods to potentially unlock a deeper understanding of the physics of the instability and enable real-time instability avoidance for high density experiments.
+Today, Andrew's research focuses on the "density limit" instability in tokamaks, one of the key limiting factors in these types of fusion experiments. He explores data-driven methods to potentially unlock a deeper understanding of the physics of the instability and enable real-time control solutions for high density reactor scenarios.
