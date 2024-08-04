@@ -11,31 +11,25 @@ redirect_from:
 
 Education
 ======
-* B.A. in Physics, Carleton College, 2019
-* Ph.D in Applied Plasma Physics, Massachusetts Institute of Technology, 2025 (expected)
+* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - Present)
+  * Ph.D. in Applied Plasma Physics, Department of Nuclear Science and Engineering
+  * Advisors: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
+* **Carleton College**, Northfield, MN (2015 - 2019)
+  * B.A. in Physics (*Distinction*), minor in Public Policy 
 
-Work experience
+
+Professional experience
 ======
-* Research Assistant (2020 - Present)
-  * Massachusetts Institute of Technology
-  * Thesis project: Developing data-driven tools to understand, predict, and avoid "density limit" disruptions at DIII-D
-  * Side project: Modeling the impact of disruptions on the economics of a tokamak power plant 
-  * Supervisor: Dr. Robert Granetz, Dr. Cristina Rea, Dr. Earl Marmar, Professor Nuno Loureiro
+* **Ph.D. Candidate/Research Assistant**, MIT Plasma Science and Fusion Center (2020 - Present)
+  * Identified novel stability boundary for the L-mode density limit using data-driven methods that achieves greater prediction accuracy than the Greenwald limit
+  * Constructed a density limit database with 150+ events from AUG, C-Mod, DIII-D, and TCV
+  *	Demonstrated real-time density limit avoidance on DIII-D utilizing stability boundary
+  *	Advised by Cristina Rea, Robert Granetz, and Earl Marmar
 
-* National Ignition Facility (NIF) Summer Scholar (Summer 2019, 2020)
-  * Trained machine learning models to predict neutron yield of fusion experiments at NIF, provide physical insight into degradation mechanism
+
+* **National Ignition Facility (NIF) Summer Scholar**, Lawrence Livermore National Laboratory (Summer 2019 & 2020)
+  * Developed machine learning models to predict neutron yield of inertial confinement fusion experiments at the NIF and provide an insight into yield degradation mechanisms
   * Supervisor: Dr. Shahab Khan
-  
-Skills
-======
-* Plasma physics
-* Data science
-* Scientific machine learning/AI
-  * Symbolic regression
-  * Deep learning 
-* Public speaking
-* Technical writing
-* Fusion energy economic analysis
 
 Publications and preprints
 ======
