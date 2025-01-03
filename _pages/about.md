@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Andrew D. Maris is a Ph.D. Candidate at the MIT Plasma Science and Fusion Center advised by Cristina Rea, Robert Granetz, and Earl Marmar. Andrew's research leverages machine learning to understand, predict, and avoid the density limit in tokamak plasmas. His interests also extend to economic and policy questions, where he has published on the impact disruptions may have on the cost of fusion electricity and is President of the [Fusion Student Delegation](https://www.fusiondelegation.org/).
+Andrew D. Maris is a Ph.D. Candidate at the MIT Plasma Science and Fusion Center advised by Cristina Rea, Robert Granetz, and Earl Marmar. Andrew's research leverages machine learning to understand, predict, and avoid the density limit in tokamak plasmas. His interests also extend to economic and policy questions, where he has published on the impact disruptions may have on the cost of fusion electricity and will serve as President of the 2025 [Fusion Student Delegation](https://www.fusiondelegation.org/).
 
 Education & Experience
 ========
