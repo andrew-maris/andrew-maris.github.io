@@ -21,12 +21,12 @@ Education
 
 Research experience
 ======
-* **MIT Plasma Science and Fusion Center**, Cambridge, MA (September 2020 - August 2025)
+**MIT Plasma Science and Fusion Center**, Cambridge, MA (September 2020 - August 2025)
   Advisors: Cristina Rea, Robert Granetz, and Earl Marmar
 
   My thesis research combines a multimachine database study and real-time control experiments at DIII-D to both elucidate and control the tokamak density limit.
 
-	* At the heart of the analysis is a multi-machine database I constructed including 150+ L-mode density limits (LDLs), 70+ H-mode density limits (HDLs), and 3,000+ non-disruptive shots from Alcator C-Mod, ASDEX-Upgrade, DIII-D, and TCV. I then created a machine learning pipeline that identified a novel scaling for the precursor to the LDL, $\nu_{\ast,edge}^ \beta_{T,edge}^{-0.4}$. This scaling outperforms others (ex. Greenwald fraction, Giacomin-Ricci scaling) as an LDL warning metric (Maris et al., NF 2024)
+	* At the heart of the analysis is a multi-machine database I constructed including 150+ L-mode density limits (LDLs), 70+ H-mode density limits (HDLs), and 3,000+ non-disruptive shots from Alcator C-Mod, ASDEX-Upgrade, DIII-D, and TCV. I then created a machine learning pipeline that identified a novel scaling for the precursor to the LDL, primarily determined by the edffective collisionality at the edge of the plasma. This scaling outperforms others (ex. Greenwald fraction, Giacomin-Ricci scaling) as an LDL warning metric (Maris et al., NF 2024)
 	* I earned PhD runtime at DIII-D to test real-time feedback control on this metric as an LDL avoidance solution. This control scheme successfully avoided LDL disruptions in 16 of 17 shots across 4 run days
 	* Additionally, I analyzed the impact of disruptions on the economics of tokamak power plants, finding that the long warming/cooling cycles of the magnets and cryostat make unscheduled maintenance extremely costly (Maris et al., FS&T 2024)
 	* A future publication is planned on the topic of the HDL and LDL, including an expanded database with experiments from JET and the DIII-D negative triangularity campaign
@@ -37,13 +37,13 @@ Research experience
 
 Publications and preprints
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications % | reverse %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks % | reverse %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
