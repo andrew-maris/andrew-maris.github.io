@@ -1,5 +1,5 @@
 ---
-title: "Density limit prediction at Dlll-D & beyond: an offline analysis"
+title: "Density limit prediction at DIII-D & beyond: an offline analysis"
 collection: talks
 type: "Talk"
 permalink: /talks/density-MHD
