@@ -48,12 +48,12 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-<!-- Teaching
+Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
-<!-- Service and leadership
+Leadership
 ======
-* Currently signed in to 43 different slack teams -->
+* President and founding member, [Fusion Student Delegation (FuSD)](https://www.fusiondelegation.org/)
