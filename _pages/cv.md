@@ -11,21 +11,35 @@ redirect_from:
 
 Education
 ======
-* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - Present)
+* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - 2026)
   * Ph.D. in Applied Plasma Physics, Department of Nuclear Science and Engineering
-  * _Provisional thesis title_: Prediction and avoidance of the tokamak density limit via interpretable machine learning 
+  * _Thesis title_: Prediction and control of the tokamak density limit
   * _Advisors_: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
 * **Carleton College**, Northfield, MN (2015 - 2019)
   * B.A. in Physics (*Distinction*), minor in Public Policy 
 
 
-Research experience
+Experience
 ======
-**MIT Plasma Science and Fusion Center**, Cambridge, MA (September 2020 - August 2025)
-  
-Advisors: Cristina Rea, Robert Granetz, and Earl Marmar
+**DOE Fusion Energy Science Postdoctoral Fellow**, Columbia University, New York, NY (2026 - Present)
 
-My thesis research combines a multimachine database study and real-time control experiments at DIII-D to both elucidate and control the tokamak density limit.
+Principle Investigator: Prof. Carlos Paz-Soldan
+
+The fellowship award is aimed to expand the breadth, depth, and speed of modeling tools for inductively-induced currents in magnetic fusion devices. In particular, I will increase: 
+* *breadth* by modeling eddy currents due to plasma transients in multiple magnetic
+fusion devices (ex. stellarators, mirrors) using the ThinCurr code.
+* *depth* by coupling ThinCurr to an extended MHD code (M3D-C1 or NIMROD)
+to enable self-consistent simulations of the tokamak current quench and accompanying
+vertical displacement event.
+* *speed* by developing accelerated models of forces experienced by
+tokamaks and stellarators via machine learning surrogates and reduced-order
+models.
+
+**MIT Plasma Science and Fusion Center**, Cambridge, MA (2020 - 2026)
+  
+Advisors: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
+
+My thesis research combined a multimachine database study and real-time control experiments at DIII-D to both elucidate and control the tokamak density limit.
 
 * At the heart of the analysis is a multi-machine database I constructed including 150+ L-mode density limits (LDLs), 70+ H-mode density limits (HDLs), and 3,000+ non-disruptive shots from Alcator C-Mod, ASDEX-Upgrade, DIII-D, and TCV. I then created a machine learning pipeline that identified a novel scaling for the precursor to the LDL, ν<sub>\*,edge</sub>β<sup>-0.4</sup><sub>T,edge</sub>. This scaling outperforms others (ex. Greenwald fraction, Giacomin-Ricci scaling) as an LDL warning metric (Maris et al., NF 2024)
 * I earned PhD runtime at DIII-D to test real-time feedback control on this metric as an LDL avoidance solution. This control scheme successfully avoided LDL disruptions in 16 of 17 shots across 4 run days
@@ -54,6 +68,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Leadership
+Awards and Leadership
 ======
+* DOE Fusion Energy Sciences Postdoctoral Fellowship (2026)
 * President and founding member, [Fusion Student Delegation (FuSD)](https://www.fusiondelegation.org/)
