@@ -21,7 +21,7 @@ Education
 
 Experience
 ======
-**DOE Fusion Energy Science Postdoctoral Fellow**, Columbia University, New York, NY (2026 - Present)
+**DOE Fusion Energy Sciences Postdoctoral Fellow**, Columbia University, New York, NY (2026 - Present)
 
 Principle Investigator: Prof. Carlos Paz-Soldan
 
