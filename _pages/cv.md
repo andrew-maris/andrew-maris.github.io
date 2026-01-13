@@ -9,16 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - 2026)
-  * Ph.D. in Applied Plasma Physics, Department of Nuclear Science and Engineering
-  * _Thesis title_: Prediction and control of the tokamak density limit
-  * _Advisors_: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
-* **Carleton College**, Northfield, MN (2015 - 2019)
-  * B.A. in Physics (*Distinction*), minor in Public Policy 
-
-
 Experience
 ======
 **DOE Fusion Energy Sciences Postdoctoral Fellow**, Columbia University, New York, NY (2026 - Present)
@@ -49,6 +39,15 @@ My thesis research combined a multimachine database study and real-time control 
 <!-- * **National Ignition Facility (NIF) Summer Scholar**, Lawrence Livermore National Laboratory (Summer 2019 & 2020)
   * Developed machine learning models to predict neutron yield of inertial confinement fusion experiments at the NIF and provide an insight into yield degradation mechanisms
   * Supervisor: Dr. Shahab Khan -->
+
+Education
+======
+* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - 2026)
+  * Ph.D. in Applied Plasma Physics, Department of Nuclear Science and Engineering
+  * _Thesis title_: Prediction and control of the tokamak density limit
+  * _Advisors_: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
+* **Carleton College**, Northfield, MN (2015 - 2019)
+  * B.A. in Physics (*Distinction*), minor in Public Policy 
 
 Publications and preprints
 ======
