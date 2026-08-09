@@ -1,10 +1,10 @@
 ---
-title: "Context: economic & policy implications"
+title: "Context: economic implications of disruptions"
 subtitle: "What a disruption costs, and why fusion energy matters."
 eyebrow: "03 / Ongoing"
 thread: 3
 order: 3
-permalink: /research/economics-and-policy/
+permalink: /research/economics-of-disruptions/
 excerpt: "Disruption research is usually justified on physics grounds and evaluated on physics terms. But whether a disruption is a nuisance or a showstopper is an economic question, and answering it changes which physics problems are worth working on."
 tags:
   - LCOE modeling
