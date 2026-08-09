@@ -1,11 +1,11 @@
 ---
-title: "Causes: data-driven discovery"
-subtitle: "Clarifying the density limit across five tokamaks."
+title: "Causes: interpretable machine learning for instability avoidance"
+subtitle: "Clarifying the density limit threshold across five tokamaks."
 eyebrow: "02 / PhD thesis"
 thread: 2
 order: 2
 permalink: /research/data-driven-discovery/
-excerpt: "The density limit is one of the fundamental bounds on tokamak operating space, and for forty years it has been estimated with a scaling that does not involve the plasma edge temperature. Assembling a database across five machines showed that collisionality is the primary organizing parameter for the limit, and that a two-parameter dimensionless boundary predicts it far better. I measured and applied feedback on that boundary in real time to avoid disruptions at DIII-D."
+excerpt: "The density limit is one of the fundamental bounds on tokamak operating space, and for forty years it has been estimated with a scaling that does not involve the plasma edge conditions. Assembling a database across five machines showed that edge collisionality is the primary organizing parameter for the limit, and that a two-parameter dimensionless boundary predicts the threshold far better. I measured and applied feedback on that boundary in real time to avoid disruptions at DIII-D."
 tags:
   - multi-machine database
   - interpretable ML
@@ -14,7 +14,7 @@ tags:
   - Alcator C-Mod
 ---
 
-Tokamaks disrupt when they are pushed to high density. Where that limit sits is usually estimated with the Greenwald scaling, an empirical formula from 1988 built on line-averaged density, plasma current, and minor radius. It is remarkably simple, widely used, and does not involve the plasma edge at all, even though it has been understood for decades that the disruptive boundary is set by edge physics.
+Tokamaks disrupt or experience H/L back-transitions when they are pushed to high density. Where that limit sits is usually estimated with the Greenwald scaling, an empirical formula from 1988 built on line-averaged density, plasma current, and minor radius. It is remarkably simple, widely used, and does not involve the plasma edge at all, even though it has been understood for decades that the disruptive boundary is set by edge physics.
 
 This matters practically. ITER and most tokamak pilot-plant concepts need to operate at or above the Greenwald limit to meet their objectives. If the scaling is wrong in either direction, the consequences are expensive.
 

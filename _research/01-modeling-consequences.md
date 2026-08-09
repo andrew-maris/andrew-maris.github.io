@@ -1,11 +1,11 @@
 ---
-title: "Consequences: simulating electromagntic loads"
+title: "Consequences: electromagnetic loads in W7-X"
 subtitle: "What happens to the machine when the plasma pops."
 eyebrow: "01 / Current work"
 thread: 1
 order: 1
 permalink: /research/modeling-consequences/
-excerpt: "Whenever the magnetic field inside a fusion device changes quickly, currents are induced in the conducting structures around the plasma. Those currents interact with the background field and pull on the machine. Predicting the resulting forces is a prerequisite for designing tokamaks and stellarators larger than the ones we have now."
+excerpt: "Whenever the magnetic field inside a fusion device changes quickly, currents are induced in the conducting structures. Those currents interact with the background field and pull on the machine. Predicting the resulting forces is a prerequisite for designing future tokamaks and stellarators and safely operating the ones we have now."
 tags:
   - ThinCurr
   - stellarators
@@ -16,9 +16,9 @@ tags:
 
 Whenever the magnetic field inside a fusion device changes quickly, currents are induced in the conducting structures surrounding the plasma: the vacuum vessel, the passive plates, the support structure. Those induced currents interact with the background field and exert forces on the machine itself. A device that survives one such event may not survive a thousand.
 
-Tokamak disruptions are the most dramatic version of this problem, since several megaamperes of plasma current terminate in milliseconds. But the underlying physics is not specific to tokamaks. Stellarators and magnetic mirrors experience their own transients, and their conducting structures respond the same way.
+Tokamak disruptions are the most dramatic version of this problem, since several megaamperes of plasma current terminate in milliseconds. But rapid plasma quenches have also been observed in [stellarators such as W7-X](https://www.sciencedirect.com/science/article/pii/S0920379623000765). The complex three-dimensional geometry of stellarator vessels and other components can concentrate these forces locally, motivating careful electromagnetic analysis.
 
-This is the focus of my DOE Fusion Energy Sciences Postdoctoral Fellowship at Columbia, working with Prof. Carlos Paz-Soldan. The fellowship is organized around expanding modeling capability for inductively-induced currents along three axes.
+This is the focus of my DOE Fusion Energy Sciences Postdoctoral Fellowship at Columbia, working with Prof. Carlos Paz-Soldan and Research Scientist Chris Hansen. The fellowship is organized around expanding modeling capability for inductively-induced currents along three axes.
 
 ## Breadth
 

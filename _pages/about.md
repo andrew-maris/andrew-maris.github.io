@@ -12,7 +12,7 @@ redirect_from:
 <div class="hero">
   <span class="hero__eyebrow">DOE FES Postdoctoral Fellow · Columbia University</span>
   <h1 class="hero__title">Understanding and taming plasma instabilities</h1>
-  <p class="hero__lede">I use simulations and machine learning to understand the causes and consequences of plasma instabilities in magnetic fusion devices. My work spans electromagnetic load modeling of W7-X, data mining to uncover the cause of the density limit in tokamaks, and real-time instability-avoidance demonstrations at DIII-D. </p>
+  <p class="hero__lede">I use simulations machine learning to understand the consequences and causes of plasma instabilities in magnetic fusion devices. My work spans electromagnetic loads in the W7-X stellarator, interpretable machine learning analysis of the tokamak density limit, real-time instability-avoidance experiments at DIII-D, and the economics impact of disruptive instabilities. </p>
   <div class="tag-row">
     <span class="tag tag--1">electromagnetic loads</span>
     <span class="tag tag--2">interpretable ML</span>
