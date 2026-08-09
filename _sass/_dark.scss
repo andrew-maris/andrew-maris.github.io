@@ -1,0 +1,427 @@
+/* ==========================================================================
+   DARK MODE — true black, brighter accents
+   Follows the OS via prefers-color-scheme. No toggle, no JavaScript.
+
+   Minimal Mistakes bakes its colors into SCSS variables at compile time, so
+   this is an override layer rather than a re-theme. Scoped to `screen` so a
+   printed CV always comes out on white paper.
+   ========================================================================== */
+
+$d-bg          : #0b0b0b;
+$d-surface     : #141414;
+$d-surface-2   : #1c1c1c;
+$d-rule        : #262626;
+$d-rule-strong : #333333;
+$d-title       : #ffffff;
+$d-text        : #f0f0f0;
+$d-secondary   : #a8a8a8;
+$d-muted       : #707070;
+$d-accent      : #5da8ff;
+
+$d-blue-bg     : #0a2d50;  $d-blue-fg   : #5da8ff;
+$d-teal-bg     : #0d3d2e;  $d-teal-fg   : #4fdcac;
+$d-purple-bg   : #251f4d;  $d-purple-fg : #a79dff;
+$d-coral-bg    : #41200f;  $d-coral-fg  : #ff8b57;
+$d-amber-bg    : #463509;  $d-amber-fg  : #f5b731;
+$d-gray-bg     : #1c1c1c;  $d-gray-fg   : #9a9a9a;
+
+@media screen and (prefers-color-scheme: dark) {
+
+  /* Theme base
+     ---------------------------------------------------------------------- */
+
+  html,
+  body {
+    background-color: $d-bg;
+    color: $d-text;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $d-title;
+  }
+
+  a {
+    color: $d-accent;
+
+    &:visited {
+      color: mix(#fff, $d-accent, 12%);
+    }
+
+    &:hover {
+      color: mix(#fff, $d-accent, 30%);
+    }
+  }
+
+  hr {
+    border-color: $d-rule;
+  }
+
+  blockquote {
+    border-left-color: $d-rule-strong;
+    color: $d-secondary;
+  }
+
+  code,
+  pre,
+  a > code,
+  p > code,
+  li > code {
+    background: $d-surface-2;
+    color: $d-text;
+  }
+
+  .highlight,
+  .highlight pre {
+    background: $d-surface-2;
+  }
+
+  table {
+    color: $d-text;
+  }
+
+  th {
+    background: $d-surface;
+    border-color: $d-rule;
+    color: $d-title;
+  }
+
+  td {
+    border-color: $d-rule;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: $d-surface;
+  }
+
+  /* Masthead and navigation
+     ---------------------------------------------------------------------- */
+
+  .masthead {
+    border-bottom-color: $d-rule;
+  }
+
+  .greedy-nav {
+    background: $d-bg;
+
+    a {
+      color: $d-secondary;
+
+      &:hover {
+        color: $d-title;
+      }
+    }
+
+    .site-title {
+      color: $d-title;
+    }
+
+    button {
+      background-color: $d-surface-2;
+      color: $d-text;
+    }
+
+    .visible-links a::before {
+      background: $d-accent;
+    }
+
+    .hidden-links {
+      background: $d-surface;
+      border-color: $d-rule;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.6);
+
+      a:hover {
+        color: $d-title;
+        background: $d-surface-2;
+      }
+
+      &::before {
+        border-color: $d-rule transparent;
+      }
+
+      &::after {
+        border-color: $d-surface transparent;
+      }
+    }
+  }
+
+  /* Footer and sidebar
+     ---------------------------------------------------------------------- */
+
+  .page__footer {
+    background-color: $d-surface;
+    border-top-color: $d-rule;
+    color: $d-secondary;
+
+    a {
+      color: $d-secondary;
+
+      &:hover {
+        color: $d-title;
+      }
+    }
+  }
+
+  .page__footer-follow .social-icons a {
+    color: $d-secondary;
+  }
+
+  .sidebar,
+  .author__urls-wrapper {
+    color: $d-text;
+  }
+
+  .author__name {
+    color: $d-title;
+  }
+
+  .author__bio,
+  .author__urls li {
+    color: $d-secondary;
+  }
+
+  .author__urls {
+    background: $d-surface;
+    border-color: $d-rule;
+
+    &::before {
+      border-color: $d-rule transparent;
+    }
+
+    &::after {
+      border-color: $d-surface transparent;
+    }
+  }
+
+  .author__avatar img {
+    border-color: $d-rule;
+  }
+
+  /* Stock archive / page chrome (talkmap, 404, archive layouts)
+     ---------------------------------------------------------------------- */
+
+  .page__title,
+  .archive__item-title,
+  .archive__item-title a {
+    color: $d-title;
+  }
+
+  .archive__subtitle {
+    color: $d-secondary;
+    border-bottom-color: $d-rule;
+  }
+
+  .archive__item-excerpt,
+  .page__meta,
+  .page__date {
+    color: $d-secondary;
+  }
+
+  .btn {
+    border-color: $d-rule-strong;
+    color: $d-text;
+
+    &:hover {
+      background-color: $d-surface-2;
+    }
+  }
+
+  .notice,
+  .notice--info,
+  .notice--warning,
+  .notice--danger,
+  .notice--success {
+    background-color: $d-surface;
+    color: $d-text;
+  }
+
+  /* Custom layer
+     ---------------------------------------------------------------------- */
+
+  .mono {
+    color: $d-secondary;
+  }
+
+  .wide a {
+    color: $d-accent;
+  }
+
+  .hero {
+    border-bottom-color: $d-rule;
+
+    &__eyebrow {
+      color: $d-accent;
+    }
+
+    &__title {
+      color: $d-title;
+    }
+
+    &__lede {
+      color: $d-secondary;
+    }
+  }
+
+  .threads__label {
+    color: $d-secondary;
+  }
+
+  .thread {
+    border-top-color: $d-rule;
+
+    &:last-of-type {
+      border-bottom-color: $d-rule;
+    }
+
+    &__index {
+      color: $d-muted;
+    }
+
+    &__title {
+      color: $d-title;
+    }
+
+    &__subtitle,
+    &__body {
+      color: $d-secondary;
+    }
+
+    &--1 .thread__index { color: $d-purple-fg; }
+    &--2 .thread__index { color: $d-teal-fg; }
+    &--3 .thread__index { color: $d-coral-fg; }
+  }
+
+  .recent {
+    &__label {
+      color: $d-muted;
+    }
+
+    &__value {
+      color: $d-text;
+    }
+
+    &__meta {
+      color: $d-secondary;
+    }
+  }
+
+  .research-header {
+    border-bottom-color: $d-rule;
+
+    &__title {
+      color: $d-title;
+    }
+
+    &__subtitle {
+      color: $d-secondary;
+    }
+  }
+
+  .research-nav {
+    border-top-color: $d-rule;
+  }
+
+  .section-label {
+    color: $d-secondary;
+    border-bottom-color: $d-rule;
+  }
+
+  .entry {
+    border-bottom-color: $d-rule;
+
+    &__title {
+      color: $d-title;
+
+      a {
+        color: $d-title;
+
+        &:hover {
+          color: $d-accent;
+        }
+      }
+    }
+
+    &__meta {
+      color: $d-secondary;
+    }
+
+    &__year {
+      color: $d-muted;
+    }
+
+    &__venue {
+      color: $d-muted;
+    }
+
+    &__note {
+      color: $d-secondary;
+    }
+
+    &__links a {
+      color: $d-accent;
+    }
+  }
+
+  .tag {
+    background: $d-gray-bg;
+    color: $d-gray-fg;
+  }
+
+  .tag--1 { background: $d-purple-bg; color: $d-purple-fg; }
+  .tag--2 { background: $d-teal-bg;   color: $d-teal-fg; }
+  .tag--3 { background: $d-coral-bg;  color: $d-coral-fg; }
+
+  .pill {
+    background: $d-gray-bg;
+    color: $d-gray-fg;
+  }
+
+  .pill--blue   { background: $d-blue-bg;   color: $d-blue-fg; }
+  .pill--teal   { background: $d-teal-bg;   color: $d-teal-fg; }
+  .pill--purple { background: $d-purple-bg; color: $d-purple-fg; }
+  .pill--coral  { background: $d-coral-bg;  color: $d-coral-fg; }
+  .pill--amber  { background: $d-amber-bg;  color: $d-amber-fg; }
+  .pill--gray   { background: $d-gray-bg;   color: $d-gray-fg; }
+
+  .badge {
+    background: $d-purple-bg;
+    color: $d-purple-fg;
+  }
+
+  .cv {
+    a {
+      color: $d-accent;
+    }
+
+    > h2 {
+      color: $d-secondary;
+      border-bottom-color: $d-rule;
+    }
+
+    > h3 {
+      color: $d-title;
+    }
+
+    > .cv__where {
+      color: $d-secondary;
+    }
+
+    > ul,
+    > ul li {
+      color: $d-secondary;
+    }
+
+    > p {
+      color: $d-text;
+    }
+
+    strong {
+      color: $d-title;
+    }
+  }
+
+  /* Images sit on white in most figures; knock the glare back a little. */
+  .page__content img,
+  .archive__item-teaser img {
+    filter: brightness(0.92);
+  }
+}
