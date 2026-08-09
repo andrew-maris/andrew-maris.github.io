@@ -15,11 +15,9 @@ Technical results only matter if the people making funding and regulatory decisi
 
 As part of the leadership team, I organized the itinerary for the delegation, including meetings with DOE Fusion Energy Sciences Director J.P. Allain and Nuclear Regulatory Commission Chairman Chris Hansen. I also led recruitment for the national program in 2025, drawing approximately 60 applicants for 10 slots.
 
-The delegation is on to its fourth cycle, now running without me or any of the original founders. I am proud to see the sustained success and impact of this program.
-
-## Presenting the model internationally
-
 The delegation was presented as a workforce and policy engagement model at the IAEA Technical Meeting on Developing the Fusion Workforce (April 2026): [The Fusion Student Delegation: A Student-Led Model for Fusion Workforce and Policy Engagement in the United States](https://conferences.iaea.org/event/449/contributions/40766/).
+
+The delegation is on to its fourth cycle, now running without me or any of the original founders. I am proud to see the sustained success and impact of this program.
 
 ## Related teaching
 
