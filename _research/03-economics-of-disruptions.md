@@ -1,6 +1,6 @@
 ---
 title: "Context: economic impact of disruptions"
-subtitle: "What a disruption costs, and why fusion energy matters."
+subtitle: "What plasma instabilities cost."
 eyebrow: "03 / Ongoing"
 thread: 3
 order: 3
@@ -19,12 +19,6 @@ Almost every paper on tokamak disruptions opens by asserting that disruptions th
 Working with colleagues at MIT, I built a model quantifying the effect of disruptions on the Levelized Cost Of Electricity (LCOE) from a tokamak power plant. It identifies the mechanisms by which disruptions raise costs and depress revenue, introduces metrics for each, and folds them into a standard LCOE framework. We also proposed a classification of disruption types based on time-to-return-to-operations, which turns out to be the variable that matters.
 
 The most consequential finding was not about the plasma. It was that cryogenic system recovery time may be the dominant cost driver. If a disruption warms the magnets and cryostat, the days-to-weeks warming and cooling cycle dwarfs the direct damage. That reframes the engineering priority, since protecting the cryogenic system from thermal excursions may buy more availability than preventing the disruption itself.
-
-## Getting the results in front of decision-makers
-
-Cost analysis only matters if the people setting budgets and regulations hear about it. That is a service role rather than a research one for me, and it lives on my [teaching and service page]({{ site.baseurl }}/teaching/fusion-student-delegation): in 2023 I co-founded the [Fusion Student Delegation](https://www.fusiondelegation.org/), a national student delegation connecting early-career fusion researchers with policymakers in Washington, and served as its first Vice President and then President.
-
-The delegation was presented as a workforce and policy engagement model at the IAEA Technical Meeting on Developing the Fusion Workforce in April 2026: [The Fusion Student Delegation: A Student-Led Model for Fusion Workforce and Policy Engagement in the United States](https://conferences.iaea.org/event/449/contributions/40766/).
 
 ## Papers
 
