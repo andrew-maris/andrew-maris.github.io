@@ -107,13 +107,15 @@ $ink-soft        : #5f5e5a;
 .threads {
   padding: 2.5em 0 0;
 
+  /* Section heading for the homepage thread list. Deliberately larger than
+     the mono captions elsewhere — it is a heading, not metadata. */
   &__label {
     font-family: $monospace;
-    font-size: 0.72em;
-    letter-spacing: 0.12em;
+    font-size: 0.95em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: $ink-soft;
-    margin-bottom: 1.4em;
+    color: $ink;
+    margin-bottom: 1.6em;
   }
 }
 
@@ -358,51 +360,4 @@ $ink-soft        : #5f5e5a;
   margin-left: 0.5em;
   background: $thread-1-soft;
   color: $thread-1;
-}
-
-/* CV page
-   ========================================================================== */
-
-.cv {
-  a {
-    color: $accent;
-  }
-
-  /* Direct-child selectors only. Entry lists are nested inside .cv and must
-     keep their own type hierarchy. */
-  > h2 {
-    font-family: $monospace;
-    font-size: 0.72em;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: $ink-soft;
-    font-weight: normal;
-    margin: 2.8em 0 0.2em;
-    padding-bottom: 0.6em;
-    border-bottom: 1px solid $rule;
-  }
-
-  > h3 {
-    font-size: 1.05em;
-    line-height: 1.4;
-    margin: 1.5em 0 0.15em;
-    color: $ink;
-  }
-
-  > .cv__where {
-    font-size: 0.9em;
-    color: $ink-soft;
-    margin: 0 0 0.6em;
-  }
-
-  > ul {
-    font-size: 0.93em;
-    line-height: 1.65;
-    color: $ink-soft;
-  }
-
-  > p {
-    font-size: 0.95em;
-    line-height: 1.7;
-  }
 }

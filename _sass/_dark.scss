@@ -1,29 +1,33 @@
 /* ==========================================================================
-   DARK MODE — true black, brighter accents
+   DARK MODE — soft charcoal, muted accents
    Follows the OS via prefers-color-scheme. No toggle, no JavaScript.
 
    Minimal Mistakes bakes its colors into SCSS variables at compile time, so
-   this is an override layer rather than a re-theme. Scoped to `screen` so a
-   printed CV always comes out on white paper.
+   this is an override layer rather than a re-theme. Scoped to `screen` so
+   anything printed comes out on white paper.
+
+   Background is #16181c rather than pure black, and body text is off-white,
+   which reduces halation at small sizes and gives photographs a surround
+   they can sit against without a hard edge.
    ========================================================================== */
 
-$d-bg          : #0b0b0b;
-$d-surface     : #141414;
-$d-surface-2   : #1c1c1c;
-$d-rule        : #262626;
-$d-rule-strong : #333333;
-$d-title       : #ffffff;
-$d-text        : #f0f0f0;
-$d-secondary   : #a8a8a8;
-$d-muted       : #707070;
-$d-accent      : #5da8ff;
+$d-bg          : #16181c;
+$d-surface     : #1c1f24;
+$d-surface-2   : #22252b;
+$d-rule        : #2b2e34;
+$d-rule-strong : #3a3e45;
+$d-title       : #e8e6e1;
+$d-text        : #d7d5cf;
+$d-secondary   : #a3a19b;
+$d-muted       : #6d6b66;
+$d-accent      : #7fb3e3;
 
-$d-blue-bg     : #0a2d50;  $d-blue-fg   : #5da8ff;
-$d-teal-bg     : #0d3d2e;  $d-teal-fg   : #4fdcac;
-$d-purple-bg   : #251f4d;  $d-purple-fg : #a79dff;
-$d-coral-bg    : #41200f;  $d-coral-fg  : #ff8b57;
-$d-amber-bg    : #463509;  $d-amber-fg  : #f5b731;
-$d-gray-bg     : #1c1c1c;  $d-gray-fg   : #9a9a9a;
+$d-blue-bg     : #132c45;  $d-blue-fg   : #7fb3e3;
+$d-teal-bg     : #173a30;  $d-teal-fg   : #6fc7a6;
+$d-purple-bg   : #282444;  $d-purple-fg : #b0a9e8;
+$d-coral-bg    : #3a231a;  $d-coral-fg  : #dd9270;
+$d-amber-bg    : #3a2e15;  $d-amber-fg  : #d9a640;
+$d-gray-bg     : #24272c;  $d-gray-fg   : #8b8983;
 
 @media screen and (prefers-color-scheme: dark) {
 
@@ -262,7 +266,7 @@ $d-gray-bg     : #1c1c1c;  $d-gray-fg   : #9a9a9a;
   }
 
   .threads__label {
-    color: $d-secondary;
+    color: $d-title;
   }
 
   .thread {
@@ -387,41 +391,5 @@ $d-gray-bg     : #1c1c1c;  $d-gray-fg   : #9a9a9a;
     color: $d-purple-fg;
   }
 
-  .cv {
-    a {
-      color: $d-accent;
-    }
 
-    > h2 {
-      color: $d-secondary;
-      border-bottom-color: $d-rule;
-    }
-
-    > h3 {
-      color: $d-title;
-    }
-
-    > .cv__where {
-      color: $d-secondary;
-    }
-
-    > ul,
-    > ul li {
-      color: $d-secondary;
-    }
-
-    > p {
-      color: $d-text;
-    }
-
-    strong {
-      color: $d-title;
-    }
-  }
-
-  /* Images sit on white in most figures; knock the glare back a little. */
-  .page__content img,
-  .archive__item-teaser img {
-    filter: brightness(0.92);
-  }
 }

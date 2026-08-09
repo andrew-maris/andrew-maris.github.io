@@ -1,5 +1,5 @@
 ---
-title: "Data-driven discovery"
+title: "Causes: data-driven discovery"
 subtitle: "Clarifying the density limit across five tokamaks."
 eyebrow: "02 / PhD thesis"
 thread: 2

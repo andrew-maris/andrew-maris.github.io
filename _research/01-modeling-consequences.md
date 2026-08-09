@@ -1,5 +1,5 @@
 ---
-title: "Modeling consequences"
+title: "Consequences: simulating electromagntic loads"
 subtitle: "What happens to the machine when the plasma pops."
 eyebrow: "01 / Current work"
 thread: 1
