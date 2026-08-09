@@ -1,7 +1,16 @@
 {% include base_path %}
 
+{% case post.type %}
+  {% when 'Invited talk' %}{% assign pillclass = 'teal' %}
+  {% when 'Contributed talk' %}{% assign pillclass = 'purple' %}
+  {% when 'Poster' %}{% assign pillclass = 'gray' %}
+  {% when 'Guest seminar' %}{% assign pillclass = 'blue' %}
+  {% when 'Outreach talk' %}{% assign pillclass = 'coral' %}
+  {% else %}{% assign pillclass = 'gray' %}
+{% endcase %}
+
 <div class="entry">
-  <p class="entry__meta">{{ post.date | date: "%Y" }} &nbsp;·&nbsp; {{ post.type }}</p>
   <h2 class="entry__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.award %}<span class="badge">{{ post.award }}</span>{% endif %}</h2>
+  <p class="entry__meta"><span class="pill pill--{{ pillclass }}">{{ post.type }}</span><span class="entry__year">{{ post.date | date: "%Y" }}</span></p>
   <p class="entry__venue">{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>
 </div>

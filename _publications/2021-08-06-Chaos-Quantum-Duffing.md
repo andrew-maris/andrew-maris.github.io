@@ -1,7 +1,7 @@
 ---
 title: "Chaos in the quantum Duffing oscillator in the semiclassical regime under parametrized dissipation"
 collection: publications
-authors: "Maris, A.D., et al."
+authors: "Maris, A.D., Pokharel, B., Seshachallam, S.G., Misplon, M.Z.R., Pattanayak, A.K."
 firstauthor: true
 permalink: /publication/2021-08-06-Chaos-Quantum-Duffing
 excerpt: 'We study the quantum dissipative Duffinng oscillator across a range of system sizes and environ-

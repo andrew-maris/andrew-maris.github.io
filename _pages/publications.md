@@ -11,7 +11,7 @@ author_profile: false
   <p class="hero__lede">Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a> and <a href="{{ site.author.orcid }}">ORCID</a>.</p>
 </div>
 
-<p class="section-label">First author</p>
+<p class="section-label">First and co-first author</p>
 <div class="entries">
 {% assign firstauthor = site.publications | where_exp: "p", "p.firstauthor" | sort: "date" | reverse %}
 {% for post in firstauthor %}{% include entry-publication.html %}{% endfor %}

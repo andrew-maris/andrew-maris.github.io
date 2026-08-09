@@ -255,22 +255,20 @@ $ink-soft        : #5f5e5a;
 }
 
 .entry {
-  padding: 1.15em 0;
+  padding: 1.5em 0;
   border-bottom: 1px solid $rule;
 
-  &__meta {
-    font-family: $monospace;
-    font-size: 0.7em;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #a3a29c;
-    margin: 0 0 0.4em;
-  }
-
+  /* Title is the largest thing in the entry. Everything else sits under it. */
   &__title {
-    font-size: 1.02em;
+    font-size: 1.12em !important;
+    font-family: $sans-serif !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    letter-spacing: normal !important;
     line-height: 1.4;
-    margin: 0 0 0.25em;
+    margin: 0 0 0.45em !important;
+    padding: 0 !important;
+    border: 0 !important;
     color: $ink;
 
     a {
@@ -284,18 +282,32 @@ $ink-soft        : #5f5e5a;
     }
   }
 
-  &__venue {
-    font-size: 0.9em;
-    line-height: 1.5;
+  &__meta {
+    font-size: 0.8em !important;
+    line-height: 1.6;
     color: $ink-soft;
-    margin: 0;
+    margin: 0 !important;
+  }
+
+  &__year {
+    font-family: $monospace;
+    font-size: 0.92em;
+    color: #a3a29c;
+    margin-left: 0.55em;
+  }
+
+  &__venue {
+    font-size: 0.82em !important;
+    line-height: 1.55;
+    color: #8d8c86;
+    margin: 0.3em 0 0 !important;
   }
 
   &__note {
-    font-size: 0.88em;
-    line-height: 1.6;
+    font-size: 0.86em !important;
+    line-height: 1.65;
     color: $ink-soft;
-    margin: 0.5em 0 0;
+    margin: 0.55em 0 0 !important;
     max-width: 42em;
   }
 
@@ -303,7 +315,7 @@ $ink-soft        : #5f5e5a;
     font-family: $monospace;
     font-size: 0.72em;
     letter-spacing: 0.03em;
-    margin: 0.55em 0 0;
+    margin: 0.6em 0 0 !important;
 
     a {
       color: $accent;
@@ -311,6 +323,28 @@ $ink-soft        : #5f5e5a;
     }
   }
 }
+
+/* Pills — venue and type markers
+   ========================================================================== */
+
+.pill {
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 0.88em;
+  letter-spacing: 0.03em;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: #f1efe8;
+  color: $ink-soft;
+  white-space: nowrap;
+}
+
+.pill--blue   { background: $accent-soft;   color: $accent; }
+.pill--teal   { background: $thread-2-soft; color: $thread-2; }
+.pill--purple { background: $thread-1-soft; color: $thread-1; }
+.pill--coral  { background: $thread-3-soft; color: $thread-3; }
+.pill--amber  { background: #faeeda;        color: #854f0b; }
+.pill--gray   { background: #f1efe8;        color: #5f5e5a; }
 
 .badge {
   display: inline-block;
@@ -322,15 +356,21 @@ $ink-soft        : #5f5e5a;
   border-radius: 3px;
   vertical-align: 0.18em;
   margin-left: 0.5em;
-  background: $accent-soft;
-  color: $accent;
+  background: $thread-1-soft;
+  color: $thread-1;
 }
 
 /* CV page
    ========================================================================== */
 
 .cv {
-  h2 {
+  a {
+    color: $accent;
+  }
+
+  /* Direct-child selectors only. Entry lists are nested inside .cv and must
+     keep their own type hierarchy. */
+  > h2 {
     font-family: $monospace;
     font-size: 0.72em;
     letter-spacing: 0.12em;
@@ -342,30 +382,26 @@ $ink-soft        : #5f5e5a;
     border-bottom: 1px solid $rule;
   }
 
-  h3 {
+  > h3 {
     font-size: 1.05em;
     line-height: 1.4;
     margin: 1.5em 0 0.15em;
     color: $ink;
   }
 
-  a {
-    color: $accent;
-  }
-
-  .cv__where {
+  > .cv__where {
     font-size: 0.9em;
     color: $ink-soft;
     margin: 0 0 0.6em;
   }
 
-  ul {
+  > ul {
     font-size: 0.93em;
     line-height: 1.65;
     color: $ink-soft;
   }
 
-  p {
+  > p {
     font-size: 0.95em;
     line-height: 1.7;
   }

@@ -1,8 +1,20 @@
 {% include base_path %}
 
+{% if post.pill %}
+  {% assign pillclass = post.pill %}
+{% elsif post.venue contains 'preparation' or post.venue contains 'preprint' or post.venue contains 'arXiv' %}
+  {% assign pillclass = 'amber' %}
+{% elsif post.venue contains 'Conference' or post.venue contains 'Symposium' %}
+  {% assign pillclass = 'purple' %}
+{% elsif post.venue contains 'Thesis' or post.venue contains 'Report' %}
+  {% assign pillclass = 'gray' %}
+{% else %}
+  {% assign pillclass = 'blue' %}
+{% endif %}
+
 <div class="entry">
-  <p class="entry__meta">{{ post.date | date: "%Y" }} &nbsp;·&nbsp; {{ post.venue }}</p>
   <h2 class="entry__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.award %}<span class="badge">{{ post.award }}</span>{% endif %}</h2>
+  <p class="entry__meta"><span class="pill pill--{{ pillclass }}">{{ post.venue }}</span><span class="entry__year">{{ post.date | date: "%Y" }}</span></p>
   {% if post.authors %}<p class="entry__venue">{{ post.authors }}</p>{% endif %}
   {% if post.summary %}<p class="entry__note">{{ post.summary }}</p>{% endif %}
   {% if post.paperurl %}<p class="entry__links"><a href="{{ post.paperurl }}">Read the paper &rarr;</a></p>{% endif %}

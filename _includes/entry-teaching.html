@@ -1,8 +1,16 @@
 {% include base_path %}
 
+{% if post.type == 'Open-source resource' %}
+  {% assign pillclass = 'coral' %}
+{% elsif post.type == 'Teaching certificate' %}
+  {% assign pillclass = 'blue' %}
+{% else %}
+  {% assign pillclass = 'teal' %}
+{% endif %}
+
 <div class="entry">
-  <p class="entry__meta">{{ post.date | date: "%Y" }} &nbsp;·&nbsp; {{ post.type }}</p>
   <h2 class="entry__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="entry__meta"><span class="pill pill--{{ pillclass }}">{{ post.type }}</span><span class="entry__year">{{ post.date | date: "%Y" }}</span></p>
   <p class="entry__venue">{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>
   {% if post.summary %}<p class="entry__note">{{ post.summary }}</p>{% endif %}
   {% if post.link %}<p class="entry__links"><a href="{{ post.link }}">{{ post.link_label | default: "View" }} &rarr;</a></p>{% endif %}

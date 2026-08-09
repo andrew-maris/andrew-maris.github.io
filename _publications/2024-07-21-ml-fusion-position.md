@@ -1,8 +1,8 @@
 ---
 title: "Position: Opportunities Exist for Machine Learning in Magnetic Fusion Energy"
 collection: publications
-authors: "Spangher, L.†, Maris, A.D.†, Wang, A.†, et al. (†equal contribution)"
-firstauthor: false
+authors: "Spangher, L.†, Wang, A.M.†, Maris, A.D.†, Stapelberg, M., Mehta, V., Saperstein, A., et al. (†equal contribution)"
+firstauthor: true
 award: "ICML Oral"
 permalink: /publication/ml-fusion-position
 excerpt: 'A position paper aimed at machine learning researchers rather than plasma physicists, arguing that magnetic fusion offers large structured datasets and open problems that map cleanly onto current ML methods. Presented as an oral at ICML 2024 (under 2% acceptance).'
