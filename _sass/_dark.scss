@@ -324,6 +324,16 @@ $d-gray-bg     : #24272c;  $d-gray-fg   : #8b8983;
     border-top-color: $d-rule;
   }
 
+  .item-citation {
+    background: $d-surface;
+    border-left-color: $d-rule-strong;
+    color: $d-secondary;
+
+    &__label {
+      color: $d-muted;
+    }
+  }
+
   .section-label {
     color: $d-secondary;
     border-bottom-color: $d-rule;

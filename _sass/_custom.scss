@@ -234,6 +234,40 @@ $ink-soft        : #5f5e5a;
   font-size: 0.9em;
 }
 
+/* Individual item page (publication, talk, teaching)
+   ========================================================================== */
+
+.item-citation {
+  font-size: 0.85em !important;
+  line-height: 1.65;
+  color: $ink-soft;
+  background: #faf9f6;
+  border-left: 2px solid $rule;
+  border-radius: 0;
+  padding: 0.9em 1.1em;
+  margin: 2.4em 0 0 !important;
+
+  &__label {
+    display: block;
+    font-family: $monospace;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #a3a29c;
+    margin-bottom: 0.4em;
+  }
+}
+
+/* The item header reuses .research-header, but its meta row and byline sit
+   tighter than they do in a list. */
+.research-header .entry__meta {
+  margin-top: 0.5em !important;
+}
+
+.research-header .entry__links {
+  margin-top: 0.9em !important;
+}
+
 /* Entry lists — publications, talks, teaching
    ========================================================================== */
 

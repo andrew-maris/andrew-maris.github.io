@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% case page.collection %}
+  {% when 'publications' %}
+    {% assign eyebrow = 'Publication' %}
+    {% assign backurl = '/publications/' %}
+    {% assign backlabel = 'All publications' %}
+    {% assign marker = page.venue %}
+  {% when 'talks' %}
+    {% assign eyebrow = 'Talk' %}
+    {% assign backurl = '/talks/' %}
+    {% assign backlabel = 'All talks' %}
+    {% assign marker = page.type %}
+  {% when 'teaching' %}
+    {% assign eyebrow = 'Teaching &amp; outreach' %}
+    {% assign backurl = '/teaching/' %}
+    {% assign backlabel = 'All teaching &amp; outreach' %}
+    {% assign marker = page.type %}
+  {% else %}
+    {% assign eyebrow = 'Item' %}
+    {% assign backurl = '/' %}
+    {% assign backlabel = 'Home' %}
+    {% assign marker = page.venue %}
+{% endcase %}
+
+{% if page.pill %}
+  {% assign pillclass = page.pill %}
+{% elsif page.collection == 'talks' or page.collection == 'teaching' %}
+  {% case page.type %}
+    {% when 'Invited talk' %}{% assign pillclass = 'teal' %}
+    {% when 'Contributed talk' %}{% assign pillclass = 'purple' %}
+    {% when 'Poster' %}{% assign pillclass = 'gray' %}
+    {% when 'Guest seminar' %}{% assign pillclass = 'blue' %}
+    {% when 'Outreach talk' %}{% assign pillclass = 'coral' %}
+    {% when 'Open-source resource' %}{% assign pillclass = 'coral' %}
+    {% when 'Teaching certificate' %}{% assign pillclass = 'blue' %}
+    {% else %}{% assign pillclass = 'teal' %}
+  {% endcase %}
+{% elsif page.venue contains 'preparation' or page.venue contains 'preprint' or page.venue contains 'arXiv' %}
+  {% assign pillclass = 'amber' %}
+{% elsif page.venue contains 'Conference' or page.venue contains 'Symposium' %}
+  {% assign pillclass = 'purple' %}
+{% elsif page.venue contains 'Thesis' or page.venue contains 'Report' %}
+  {% assign pillclass = 'gray' %}
+{% else %}
+  {% assign pillclass = 'blue' %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="wide" itemscope itemtype="http://schema.org/CreativeWork">
+    <header class="research-header">
+      <span class="mono">{{ eyebrow }}</span>
+      <h1 class="research-header__title" itemprop="headline">{{ page.title }}{% if page.award %}<span class="badge">{{ page.award }}</span>{% endif %}</h1>
+
+      <p class="entry__meta">
+        {% if marker %}<span class="pill pill--{{ pillclass }}">{{ marker }}</span>{% endif %}
+        {% if page.date %}<span class="entry__year">{{ page.date | date: "%Y" }}</span>{% endif %}
+      </p>
+
+      {% if page.authors %}
+        <p class="entry__venue">{{ page.authors }}</p>
+      {% elsif page.venue and page.collection != 'publications' %}
+        <p class="entry__venue">{{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>
+      {% endif %}
+
+      {% if page.paperurl or page.link %}
+        <p class="entry__links">
+          {% if page.paperurl %}<a href="{{ page.paperurl }}">{{ page.paperurl_label | default: "Read the paper" }} &rarr;</a>{% endif %}
+          {% if page.link %}<a href="{{ page.link }}">{{ page.link_label | default: "View" }} &rarr;</a>{% endif %}
+        </p>
+      {% endif %}
+    </header>
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    {% if page.citation %}
+      <p class="item-citation"><span class="item-citation__label">Citation</span>{{ page.citation }}</p>
+    {% endif %}
+
+    <div class="research-nav">
+      <a href="{{ base_path }}{{ backurl }}">&larr; {{ backlabel }}</a>
+    </div>
+  </article>
+</div>
