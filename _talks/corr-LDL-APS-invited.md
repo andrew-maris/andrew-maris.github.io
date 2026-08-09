@@ -1,7 +1,7 @@
 ---
-title: "Correlation of the L-mode density limit with edge collisionality <i>(Invited)</i>"
+title: "Correlation of the L-mode density limit with edge collisionality"
 collection: talks
-type: "Talk"
+type: "Invited talk"
 permalink: /talks/corr-LDL-APS-invited
 venue: "66th Annual Meeting of the APS Division of Plasma Physics"
 date: 2024-10-07

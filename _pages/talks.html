@@ -1,16 +1,40 @@
 ---
-layout: archive
-title: "Talks and presentations"
+title: "Talks"
+layout: home
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
+{% include base_path %}
+
+<div class="hero" style="padding-bottom:1.6em">
+  <span class="hero__eyebrow">Talks</span>
+  <h1 class="hero__title" style="font-size:2em">Talks and presentations</h1>
+  <p class="hero__lede">Conference talks, seminars, and posters, most recent first.</p>
+</div>
+
+{% assign all = site.talks | sort: "date" | reverse %}
+
+<p class="section-label">Invited</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Invited talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<p class="section-label">Contributed</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Contributed talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<p class="section-label">Seminars and outreach</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Guest seminar" or post.type == "Outreach talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<p class="section-label">Posters</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Poster" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
 {% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
+<p style="margin-top:2em"><a href="{{ base_path }}/talkmap.html">See a map of all the places I have given a talk</a></p>
 {% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}

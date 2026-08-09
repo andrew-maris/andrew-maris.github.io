@@ -1,8 +1,8 @@
 ---
 title: "Correlation of the L-mode density limit with edge collisionality"
 collection: talks
-type: "Talk"
-permalink: /talks/corr-LDL-APS-invited
+type: "Contributed talk"
+permalink: /talks/corr-LDL-IAEA-TM
 venue: "IAEA 3rd Technical Meeting on Plasma Disruptions and their Mitigation"
 date: 2024-09-03
 location: "ITER Headquarters, France"

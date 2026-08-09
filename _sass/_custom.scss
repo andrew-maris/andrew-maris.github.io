@@ -231,3 +231,142 @@ $ink-soft        : #5f5e5a;
   border-top: 1px solid $rule;
   font-size: 0.9em;
 }
+
+/* Entry lists — publications, talks, teaching
+   ========================================================================== */
+
+.section-label {
+  font-family: $monospace;
+  font-size: 0.7em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $ink-soft;
+  margin: 2.6em 0 0.2em;
+  padding-bottom: 0.6em;
+  border-bottom: 1px solid $rule;
+
+  &:first-of-type {
+    margin-top: 1.6em;
+  }
+}
+
+.entries {
+  margin-bottom: 1em;
+}
+
+.entry {
+  padding: 1.15em 0;
+  border-bottom: 1px solid $rule;
+
+  &__meta {
+    font-family: $monospace;
+    font-size: 0.7em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #a3a29c;
+    margin: 0 0 0.4em;
+  }
+
+  &__title {
+    font-size: 1.02em;
+    line-height: 1.4;
+    margin: 0 0 0.25em;
+    color: $ink;
+
+    a {
+      color: $ink;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: $accent;
+      }
+    }
+  }
+
+  &__venue {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: $ink-soft;
+    margin: 0;
+  }
+
+  &__note {
+    font-size: 0.88em;
+    line-height: 1.6;
+    color: $ink-soft;
+    margin: 0.5em 0 0;
+    max-width: 42em;
+  }
+
+  &__links {
+    font-family: $monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.03em;
+    margin: 0.55em 0 0;
+
+    a {
+      color: $accent;
+      margin-right: 1em;
+    }
+  }
+}
+
+.badge {
+  display: inline-block;
+  font-family: $monospace;
+  font-size: 0.62em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+  vertical-align: 0.18em;
+  margin-left: 0.5em;
+  background: $accent-soft;
+  color: $accent;
+}
+
+/* CV page
+   ========================================================================== */
+
+.cv {
+  h2 {
+    font-family: $monospace;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    font-weight: normal;
+    margin: 2.8em 0 0.2em;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid $rule;
+  }
+
+  h3 {
+    font-size: 1.05em;
+    line-height: 1.4;
+    margin: 1.5em 0 0.15em;
+    color: $ink;
+  }
+
+  a {
+    color: $accent;
+  }
+
+  .cv__where {
+    font-size: 0.9em;
+    color: $ink-soft;
+    margin: 0 0 0.6em;
+  }
+
+  ul {
+    font-size: 0.93em;
+    line-height: 1.65;
+    color: $ink-soft;
+  }
+
+  p {
+    font-size: 0.95em;
+    line-height: 1.7;
+  }
+}

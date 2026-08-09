@@ -1,7 +1,7 @@
 ---
 title: "Investigating the robustness of machine learning-based disruption prediction with synthetic training data"
 collection: talks
-type: "Talk"
+type: "Contributed talk"
 permalink: /talks/synth-data
 venue: "26th Workshop on MHD Stability Control"
 date: 2022-10-14

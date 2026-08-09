@@ -1,6 +1,8 @@
 ---
 title: "Investigating Boosted Decision Trees as a Guide for Inertial Confinement Fusion Design"
 collection: publications
+authors: "Maris, A.D., Khan, S.F., Pokornik, M.M., Peterson, J.L., Humbird, K.D., Haan, S.W."
+firstauthor: true
 permalink: /publication/2023-04-14-boosted-trees-icf
 excerpt: 'Inertially confined fusion experiments at the National Ignition Facility have recently entered a new regime approaching ignition. Improved modelling and exploration of the experimental parameter space were essential to deepening our understanding of the mechanisms that degrade and amplify the neutron yield. The growing prevalence of machine learning in fusion studies opens a new avenue for investigation. In this paper, we have applied the Gradient Boosted Decision Tree (GBDT) machine learning architecture to further explore the parameter space and find correlations with the neutron yield, a key performance indicator. We find reasonable agreement between the measured and predicted yield, with a mean absolute percentage error on a randomly assigned test set of 35.5%. This model finds the characteristics of the laser pulse to be the most influential in prediction, as well as the hohlraum laser entrance hole diameter and an enhanced capsule fabrication technique. We used the trained model to scan over the design space of experiments from three different campaigns to evaluate the potential of this technique to provide design changes that could improve the resulting neutron yield. While this data-driven model cannot predict ignition without examples of ignited shots in the training set, it can be used to indicate that an unseen shot design will at least be in the upper range of previously observed neutron yields.'
 date: 2023-04-14

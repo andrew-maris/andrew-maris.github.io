@@ -2,7 +2,7 @@
 title: "The impact of disruptions on the economics of a tokamak power plant"
 collection: talks
 type: "Guest seminar"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/disruption-economics-MITEI
 venue: "MIT Energy Intiative - Fusion Study Team"
 date: 2023-03-14
 location: "Cambridge, MA"

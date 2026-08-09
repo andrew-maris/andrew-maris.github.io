@@ -1,73 +1,128 @@
 ---
-layout: archive
 title: "CV"
+layout: home
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-Experience
-======
-**DOE Fusion Energy Sciences Postdoctoral Fellow**, Columbia University, New York, NY (2026 - Present)
+<div class="hero" style="padding-bottom:1.6em">
+  <span class="hero__eyebrow">Curriculum vitae</span>
+  <h1 class="hero__title" style="font-size:2em">Andrew D. Maris</h1>
+  <p class="hero__lede">New York, NY &nbsp;·&nbsp; {{ site.author.email }} &nbsp;·&nbsp; <a href="{{ site.author.googlescholar }}">Google Scholar</a> &nbsp;·&nbsp; <a href="{{ site.author.orcid }}">ORCID</a></p>
+</div>
 
-Principle Investigator: Prof. Carlos Paz-Soldan
+<div class="cv" markdown="1">
 
-The fellowship award is aimed to expand the breadth, depth, and speed of modeling tools for inductively-induced currents in magnetic fusion devices. In particular, I will increase: 
-* *breadth* by modeling eddy currents due to plasma transients in multiple magnetic
-fusion devices (ex. stellarators, mirrors) using the ThinCurr code.
-* *depth* by coupling ThinCurr to an extended MHD code (M3D-C1 or NIMROD)
-to enable self-consistent simulations of the tokamak current quench and accompanying
-vertical displacement event.
-* *speed* by developing accelerated models of forces experienced by
-tokamaks and stellarators via machine learning surrogates and reduced-order
-models.
+## Research
 
-**MIT Plasma Science and Fusion Center**, Cambridge, MA (2020 - 2026)
-  
-Advisors: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
+### DOE Fusion Energy Sciences Postdoctoral Fellow
+<p class="cv__where">Columbia University, New York, NY &nbsp;·&nbsp; 2026 – present &nbsp;·&nbsp; Supervisor: Prof. Carlos Paz-Soldan</p>
 
-My thesis research combined a multimachine database study and real-time control experiments at DIII-D to both elucidate and control the tokamak density limit.
+Expanding the breadth, depth, and speed of modeling tools for inductively-induced currents in magnetic fusion devices.
 
-* At the heart of the analysis is a multi-machine database I constructed including 258 L-mode density limits (LDLs), 90 H-mode density limits (HDLs), and 4,739 non-disruptive shots from Alcator C-Mod, ASDEX-Upgrade, DIII-D, JET, and TCV. I then created a machine learning pipeline that identified a novel scaling for the precursor to the LDL, ν<sub>\*,edge</sub>β<sup>-0.4</sup><sub>T,edge</sub>. This scaling outperforms others (ex. Greenwald fraction, Giacomin-Ricci scaling) as an LDL warning metric (Maris et al., NF 2025)
-* I earned PhD runtime at DIII-D to test real-time feedback control on this metric as an LDL avoidance solution. This control scheme successfully avoided LDL disruptions in 16 of 17 shots across 4 run days (Maris et al., NF 2026)
-* Additionally, I analyzed the impact of disruptions on the economics of tokamak power plants, finding that the long warming/cooling cycles of the magnets and cryostat make unscheduled maintenance extremely costly (Maris et al., FS&T 2024)
-* A future publication is planned on the topic of the HDL and LDL, including an expanded database with experiments from JET and the DIII-D negative triangularity campaign
+* *Breadth*: modeling eddy currents from plasma transients across multiple device classes, including stellarators and mirrors, using the ThinCurr code
+* *Depth*: coupling ThinCurr to an extended MHD code (M3D-C1 or NIMROD) for self-consistent simulation of the current quench and the accompanying vertical displacement event
+* *Speed*: developing accelerated, differentiable models of the forces experienced by tokamaks and stellarators via machine learning surrogates and reduced-order models
 
-<!-- * **National Ignition Facility (NIF) Summer Scholar**, Lawrence Livermore National Laboratory (Summer 2019 & 2020)
-  * Developed machine learning models to predict neutron yield of inertial confinement fusion experiments at the NIF and provide an insight into yield degradation mechanisms
-  * Supervisor: Dr. Shahab Khan -->
+### PhD research, MIT Plasma Science and Fusion Center
+<p class="cv__where">Cambridge, MA &nbsp;·&nbsp; 2020 – 2026 &nbsp;·&nbsp; Advisors: Cristina Rea, Robert Granetz, and Earl Marmar</p>
 
-Education
-======
-* **Massachusetts Institute of Technology**, Cambridge, MA (2020 - 2026)
-  * Ph.D. in Applied Plasma Physics, Department of Nuclear Science and Engineering
-  * _Thesis title_: Prediction and control of the tokamak density limit
-  * _Advisors_: Drs. Cristina Rea, Robert Granetz, and Earl Marmar
-* **Carleton College**, Northfield, MN (2015 - 2019)
-  * B.A. in Physics (*Distinction*), minor in Public Policy 
+A multi-machine database study combined with real-time control experiments at DIII-D, aimed at both explaining and controlling the tokamak density limit.
 
-Publications and preprints
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Awards and Leadership
-======
-* DOE Fusion Energy Sciences Postdoctoral Fellowship (2026)
-* President and founding member, [Fusion Student Delegation (FuSD)](https://www.fusiondelegation.org/)
+* Built a comprehensive multi-machine density limit database: 258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV. Released publicly as the [Open Density Limit Database](https://github.com/MIT-PSFC/open_density_limit_database)
+* Created a machine learning pipeline that identified simple, dimensionless power laws predicting density limit onset more accurately than the Greenwald fraction, providing evidence for a theorized RBM-destabilization mechanism (*NF* 2025; in preparation 2026)
+* Demonstrated real-time avoidance of the density limit on DIII-D via feedback control of the machine-learned stability metrics (*NF* 2026)
+* Quantified the economic consequences of disruptions in tokamak power plants, showing cryogenic system recovery time to be a potentially dominant cost driver (*FS&T* 2024)
+
+### Quantum Chaos Research Assistant
+<p class="cv__where">Carleton College, Northfield, MN &nbsp;·&nbsp; 2017 – 2019</p>
+
+* Characterized the convergence of the Duffing oscillator's dynamical complexity in the semiclassical regime via numerical simulation (*PRE* 2021)
+
+## Education
+
+### Massachusetts Institute of Technology
+<p class="cv__where">PhD in Applied Plasma Physics, Department of Nuclear Science and Engineering &nbsp;·&nbsp; February 2026</p>
+
+* *Thesis*: Prediction and control of the tokamak density limit
+* *Advisors*: Cristina Rea, Robert Granetz, and Earl Marmar
+
+### Carleton College
+<p class="cv__where">B.A., Northfield, MN &nbsp;·&nbsp; June 2019</p>
+
+* Major in Physics (*Distinction*), minor in Public Policy
+
+## Industry experience & research internships
+
+### Associate Photonics Engineer
+<p class="cv__where">L3Harris Technologies, Palm Bay, FL &nbsp;·&nbsp; September 2019 – June 2020</p>
+
+* Programmed a quantum computing demonstration for an aerospace optimization problem
+* Lead author of an R&D funding request for an adiabatic quantum computing project
+
+### National Ignition Facility Summer Scholar
+<p class="cv__where">Lawrence Livermore National Laboratory, Livermore, CA &nbsp;·&nbsp; Summers 2019 &amp; 2020</p>
+
+* Developed machine learning models to predict neutron yield of inertial confinement fusion experiments at NIF and to identify yield degradation mechanisms (*PoP* 2023)
+
+</div>
+
+<div class="cv">
+
+<h2>Publications</h2>
+<div class="entries">
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for post in pubs %}{% include entry-publication.html %}{% endfor %}
+</div>
+
+<h2>Invited talks</h2>
+<div class="entries">
+{% assign all = site.talks | sort: "date" | reverse %}
+{% for post in all %}{% if post.type == "Invited talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<h2>Contributed talks</h2>
+<div class="entries">
+{% for post in all %}{% if post.type == "Contributed talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<h2>Seminars and outreach</h2>
+<div class="entries">
+{% for post in all %}{% if post.type == "Guest seminar" or post.type == "Outreach talk" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<h2>Posters</h2>
+<div class="entries">
+{% for post in all %}{% if post.type == "Poster" %}{% include entry-talk.html %}{% endif %}{% endfor %}
+</div>
+
+<h2>Teaching</h2>
+<div class="entries">
+{% assign teach = site.teaching | sort: "date" | reverse %}
+{% for post in teach %}{% include entry-teaching.html %}{% endfor %}
+</div>
+
+</div>
+
+<div class="cv" markdown="1">
+
+## Awards
+
+* **DOE Fusion Energy Sciences Postdoctoral Fellowship**, July 2025
+* **Outstanding Poster Award**, 13th ITER International School, Nagoya, Japan, December 2024
+* **Distinction in Physics**, Carleton College, 2019
+
+## Service and leadership
+
+### President and Co-Founder, Fusion Student Delegation
+<p class="cv__where">Washington, DC &nbsp;·&nbsp; 2023 – 2025 (Vice President 2024, President 2025)</p>
+
+* Founded a national graduate-student delegation connecting early-career fusion scientists with policymakers in Washington
+* Organized the schedule for the inaugural visit, including meetings with DOE FES Director J.P. Allain and Nuclear Regulatory Commissioner Chris Hansen
+* Led recruitment and governance design for the national program; the 2025 cohort drew 60 applicants for 10 slots
+
+</div>

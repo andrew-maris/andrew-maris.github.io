@@ -1,0 +1,7 @@
+{% include base_path %}
+
+<div class="entry">
+  <p class="entry__meta">{{ post.date | date: "%Y" }} &nbsp;·&nbsp; {{ post.type }}</p>
+  <h2 class="entry__title"><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>{% if post.award %}<span class="badge">{{ post.award }}</span>{% endif %}</h2>
+  <p class="entry__venue">{{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>
+</div>

@@ -1,16 +1,24 @@
 ---
-layout: archive
-title: "First author publications & preprints"
+title: "Publications"
+layout: home
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<div class="hero" style="padding-bottom:1.6em">
+  <span class="hero__eyebrow">Publications</span>
+  <h1 class="hero__title" style="font-size:2em">Papers and preprints</h1>
+  <p class="hero__lede">Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a> and <a href="{{ site.author.orcid }}">ORCID</a>.</p>
+</div>
 
-{% include base_path %}
+<p class="section-label">First author</p>
+<div class="entries">
+{% assign firstauthor = site.publications | where_exp: "p", "p.firstauthor" | sort: "date" | reverse %}
+{% for post in firstauthor %}{% include entry-publication.html %}{% endfor %}
+</div>
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="section-label">Co-authored</p>
+<div class="entries">
+{% assign coauthored = site.publications | where_exp: "p", "p.firstauthor != true" | sort: "date" | reverse %}
+{% for post in coauthored %}{% include entry-publication.html %}{% endfor %}
+</div>

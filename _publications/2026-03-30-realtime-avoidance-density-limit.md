@@ -1,6 +1,9 @@
 ---
 title: "Real-time avoidance of the L-mode and H-mode density limit via machine-learned stability metrics"
 collection: publications
+authors: "Maris, A.D., Rea, C., Pau, A., Barr, J., Erickson, K., Schmitz, L., Yan, Z., Granetz, R., Marmar, E., et al."
+firstauthor: true
+paperurl: 'https://doi.org/10.1088/1741-4326/ae4efe'
 permalink: /publication/realtime-avoidance-density-limit
 excerpt: 'Reliable operation of burning plasma tokamaks will require robust control strategies to avoid macroscopic instability limits such as the L-mode and H-mode density limits (LDL, HDL). In this work, we explore closed-loop avoidance of these phenomena at DIII-D using machine-learned risk metrics. Feedback control is implemented via the &quot;DL Supervisor&quot; scheme, which regulates the chosen risk metric by reducing the density target or increasing NBI heating in real-time. Using the LDL25 risk metric, the LDL is reproducibly suppressed. We also introduce an HDL risk metric in this study, HDL25, which reduces the False Positive Rate by 2x compared to the Greenwald fraction. Applying this scaling to a plasma current ramp-down, we successfully avoid an HDL-driven H/L back-transition. These experiments constitute the first demonstration of real-time DL avoidance using machine-learned risk metrics. These instability metrics outline a path to safer high-density operation, more reliable ramp-down scenarios, and improved off-normal control for next-step devices such as ITER and SPARC.'
 date: 2026-03-30

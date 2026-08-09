@@ -2,7 +2,7 @@
 title: "Distilling the density limit in tokamaks using data-driven techniques"
 collection: talks
 type: "Guest seminar"
-permalink: /talks/2024-01-22-talk
+permalink: /talks/distilling-density-AstroAI
 venue: "AstroAI Journal Club - Harvard & Smithsonian Center for Astrophyics"
 date: 2024-01-22
 location: "Cambridge, MA"
