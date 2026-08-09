@@ -1,5 +1,5 @@
 ---
-title: "Causes: interpretable machine learning for instability avoidance"
+title: "Causes: interpretable machine learning"
 subtitle: "Clarifying the density limit threshold across five tokamaks."
 eyebrow: "02 / PhD thesis"
 thread: 2
