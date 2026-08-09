@@ -13,15 +13,15 @@ tags:
   - Fusion Student Delegation (FuSD)
 ---
 
-Almost every paper on tokamak disruptions opens by asserting that disruptions threaten the viability of fusion power. Very few of them say by how much. That gap struck me as worth closing, because the answer determines which mitigation strategies are worth their cost, and more bluntly, whether the field is working on the right problems.
+Almost every paper on tokamak disruptions opens by asserting that disruptions threaten the viability of fusion power. Very few of them say by how much. That gap struck me as worth closing, because the answer determines which mitigation strategies are worth their cost, and more bluntly, whether the field is working on the right problems. 
+
+Additionally, I saw a need for more engagement between fusion energy and the decisionmakers on Capitol Hill; during my PhD, I co-founded a science policy program for students studying fusion energy that continues this day.
 
 ## Putting a number on it
 
 Working with colleagues at MIT, I built a model quantifying the effect of disruptions on the Levelized Cost Of Electricity (LCOE) from a tokamak power plant. It identifies the mechanisms by which disruptions raise costs and depress revenue, introduces metrics for each, and folds them into a standard LCOE framework. We also proposed a classification of disruption types based on time-to-return-to-operations, which turns out to be the variable that matters.
 
 The most consequential finding was not about the plasma. It was that **cryogenic system recovery time may be the dominant cost driver**. If a disruption warms the magnets and cryostat, the days-to-weeks warming and cooling cycle dwarfs the direct damage. That reframes the engineering priority, since protecting the cryogenic system from thermal excursions may buy more availability than preventing the disruption itself.
-
-It is also an argument for the kind of work described under [modeling consequences]({{ site.baseurl }}/research/modeling-consequences/). The economic case for avoidance depends on an accurate model of what you are avoiding.
 
 ## Policy
 

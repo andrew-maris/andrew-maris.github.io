@@ -1,9 +1,9 @@
 ---
 title: "Collisionality scaling of the tokamak density limit: data-driven analysis, cross-device prediction, and real-time avoidance"
 collection: talks
-type: "Contributed talk"
+type: "Contributed talk (ITER Session)"
 permalink: /talks/collisionality-scaling-APS-2025
-venue: "67th Annual Meeting of the APS Division of Plasma Physics (ITER Session)"
+venue: "67th Annual Meeting of the APS Division of Plasma Physics"
 date: 2025-11-01
 location: "Long Beach, California"
 ---
