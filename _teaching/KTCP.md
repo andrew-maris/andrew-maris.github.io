@@ -1,5 +1,5 @@
 ---
-title: "Kaufman Teaching Certificate Program "
+title: "Kaufman Teaching Certificate Program"
 collection: teaching
 type: "Teaching certificate"
 permalink: /teaching/KTCP

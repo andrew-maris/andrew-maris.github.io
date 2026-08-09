@@ -15,7 +15,7 @@ tags:
 
 Whenever the magnetic field inside a fusion device changes quickly, currents are induced in the conducting structures surrounding the plasma: the vacuum vessel, the passive plates, the support structure. Those induced currents interact with the background field and exert forces on the machine itself. A device that survives one such event may not survive a thousand.
 
-Tokamak disruptions are the most dramatic version of this problem, since several megaamperes (MAs) of plasma current terminate in milliseconds. But rapid plasma quenches have also been observed in [stellarators such as W7-X](https://www.sciencedirect.com/science/article/pii/S0920379623000765) carrying MAs of diamagnetic current, and future quasi-axisymmetric (QA) devices amy also carry large toroidal plasma currents. The complex three-dimensional geometry of stellarator vessels and other components can concentrate these forces locally, motivating careful electromagnetic analysis.
+Tokamak disruptions are the most dramatic version of this problem, since several megaamperes (MAs) of plasma current terminate in milliseconds. But rapid plasma quenches have also been observed in [stellarators such as W7-X](https://www.sciencedirect.com/science/article/pii/S0920379623000765) carrying MAs of diamagnetic current, and future quasi-axisymmetric (QA) devices may also carry large toroidal plasma currents. The complex three-dimensional geometry of stellarator vessels and other components can concentrate these forces locally, motivating careful electromagnetic analysis.
 
 This is the focus of my DOE Fusion Energy Sciences Postdoctoral Fellowship at Columbia, working with Prof. Carlos Paz-Soldan and Research Scientist Chris Hansen. The fellowship is organized around expanding modeling capability for inductively-induced currents along three axes:
 
@@ -25,7 +25,7 @@ Most eddy-current modeling has been developed for and validated against tokamaks
 
 ## 2) Depth
 
-Sophisticated plasma models of disruptions still generally rely on simplistic wall models.Coupling ThinCurr to an M3D-C1 will allow for self-consistent simulation of the current quench and the vertical displacement event that include 3D eddy current effects.
+Sophisticated plasma models of disruptions still generally rely on simplistic wall models. Coupling ThinCurr to M3D-C1 will allow for self-consistent simulation of the current quench and the vertical displacement event that includes 3D eddy current effects.
 
 ## 3) Speed
 

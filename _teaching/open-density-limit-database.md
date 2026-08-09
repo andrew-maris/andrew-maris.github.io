@@ -13,8 +13,8 @@ summary: "The multi-machine density limit database from my thesis, released publ
 
 Cross-machine density limit studies have historically been hard to compare, because each group assembles a private dataset with its own shot selection and its own definition of what counts as a density limit. Disagreements between studies can come from the physics or from those choices, and from the outside there is no way to tell which.
 
-The Open Density Limit Database is the dataset behind my thesis, released publicly: **258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges** from Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV, along with the selection criteria used to build it.
+The Open Density Limit Database releases the Alcator C-Mod portion of the dataset behind my thesis, along with the selection criteria used to build it. The remaining machines in the study are covered by user agreements and cannot be published.
 
-Other groups can test their own scalings and stability models against the same discharges rather than reassembling the data from scratch. It is also a reasonable teaching dataset for anyone who wants a real, messy, multi-device fusion problem to work on.
+Other groups can test their own scalings and stability models against the same discharges rather than reassembling the data from scratch. It is also a reasonable teaching dataset for anyone who wants a real, messy fusion problem to work on.
 
 [View the database on GitHub](https://github.com/MIT-PSFC/open_density_limit_database)

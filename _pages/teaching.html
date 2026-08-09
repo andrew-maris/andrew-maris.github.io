@@ -1,5 +1,5 @@
 ---
-title: "Teaching & outreach"
+title: "Teaching & service"
 layout: home
 permalink: /teaching/
 author_profile: false
@@ -8,16 +8,21 @@ author_profile: false
 {% include base_path %}
 
 <div class="hero" style="padding-bottom:1.6em">
-  <span class="hero__eyebrow">Teaching &amp; outreach</span>
-  <h1 class="hero__title" style="font-size:2em">Teaching, training, and public resources</h1>
-  <p class="hero__lede">Courses and sessions I have taught, pedagogical training, and open resources built for other researchers to use.</p>
+  <span class="hero__eyebrow">Teaching &amp; service</span>
+  <h1 class="hero__title" style="font-size:2em">Teaching, service, and public resources</h1>
+  <p class="hero__lede">Courses and sessions I have taught, pedagogical training, science policy service, and open resources built for other researchers to use.</p>
 </div>
 
 {% assign all = site.teaching | sort: "date" | reverse %}
 
 <p class="section-label">Teaching</p>
 <div class="entries">
-{% for post in all %}{% unless post.type == "Open-source resource" %}{% include entry-teaching.html %}{% endunless %}{% endfor %}
+{% for post in all %}{% unless post.type == "Open-source resource" or post.type == "Science policy" %}{% include entry-teaching.html %}{% endunless %}{% endfor %}
+</div>
+
+<p class="section-label">Science policy</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Science policy" %}{% include entry-teaching.html %}{% endif %}{% endfor %}
 </div>
 
 <p class="section-label">Open resources</p>

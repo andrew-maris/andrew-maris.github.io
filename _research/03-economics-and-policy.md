@@ -9,13 +9,10 @@ excerpt: "Disruption research is usually justified on physics grounds and evalua
 tags:
   - LCOE modeling
   - cryogenic recovery
-  - fusion policy
-  - Fusion Student Delegation (FuSD)
+  - disruption cost
 ---
 
-Almost every paper on tokamak disruptions opens by asserting that disruptions threaten the viability of fusion power. Very few of them say by how much. That gap struck me as worth closing, because the answer determines which mitigation strategies are worth their cost, and more bluntly, whether the field is working on the right problems. 
-
-Additionally, I saw a need for more engagement between fusion energy and the decisionmakers on Capitol Hill; during my PhD, I co-founded a science policy program for students studying fusion energy that continues this day.
+Almost every paper on tokamak disruptions opens by asserting that disruptions threaten the viability of fusion power. Very few of them say by how much. That gap struck me as worth closing, because the answer determines which mitigation strategies are worth their cost, and more bluntly, whether the field is working on the right problems.
 
 ## Putting a number on it
 
@@ -23,13 +20,11 @@ Working with colleagues at MIT, I built a model quantifying the effect of disrup
 
 The most consequential finding was not about the plasma. It was that **cryogenic system recovery time may be the dominant cost driver**. If a disruption warms the magnets and cryostat, the days-to-weeks warming and cooling cycle dwarfs the direct damage. That reframes the engineering priority, since protecting the cryogenic system from thermal excursions may buy more availability than preventing the disruption itself.
 
-## Policy
+## Getting the results in front of decision-makers
 
-Technical results only matter if the people making funding and regulatory decisions hear about them. In 2023 I co-founded the **[Fusion Student Delegation (FuSD)](https://www.fusiondelegation.org/)**, a national student delegation connecting early-career fusion researchers with policymakers in Washington. I served as its first Vice President in 2024, and President in 2025. As part of the leadership team, I organized the itinerary for the delegation, inclduing meetings with DOE Fusion Energy Sciences Director J.P. Allain and Nuclear Regulatory Commission Chairman Chris Hansen. Additionally, I led recruitment for the national program in 2025, drawing approximately 60 applicants for 10 slots.
+Cost analysis only matters if the people setting budgets and regulations hear about it. That is a service role rather than a research one for me, and it lives on my [teaching and service page]({{ site.baseurl }}/teaching/fusion-student-delegation): in 2023 I co-founded the [Fusion Student Delegation](https://www.fusiondelegation.org/), a national student delegation connecting early-career fusion researchers with policymakers in Washington, and served as its first Vice President and then President.
 
-The delegation is on to its fourth cycle, now running without me or any of the original founders. I am proud to see the sustain success and impact of this program.
-
-I also teach this material where I can. For the MIT IAP course *Business of Fusion Energy*, I gave a talk on the fusion policy landscape and how students can get involved in it, which I believe is one of the best ways young people can help enable a fusion-powered future.
+The delegation was presented as a workforce and policy engagement model at the IAEA Technical Meeting on Developing the Fusion Workforce in April 2026: [The Fusion Student Delegation: A Student-Led Model for Fusion Workforce and Policy Engagement in the United States](https://conferences.iaea.org/event/449/contributions/40766/).
 
 ## Papers
 

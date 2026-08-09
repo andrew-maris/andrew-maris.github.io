@@ -17,4 +17,4 @@ This article is available [open access](https://doi.org/10.1080/15361055.2023.22
 Recommended citation: Maris, Andrew D., Allen Wang, Cristina Rea, Robert Granetz, and Earl Marmar. "The impact of disruptions on the economics of a tokamak power plant." <i>Fusion Science and Technology</i> (2024).
 
 
-A Juptyer Notebook for exploring the models used in this analysis (as well as raw data and plots for this publication) can be found [at this Github repo](https://github.com/andrew-maris/disruptions-tokamak-economics).
+A Jupyter notebook for exploring the models used in this analysis (as well as raw data and plots for this publication) can be found [in this GitHub repository](https://github.com/andrew-maris/disruptions-tokamak-economics).

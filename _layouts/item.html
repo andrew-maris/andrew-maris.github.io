@@ -16,9 +16,9 @@ layout: default
     {% assign backlabel = 'All talks' %}
     {% assign marker = page.type %}
   {% when 'teaching' %}
-    {% assign eyebrow = 'Teaching &amp; outreach' %}
+    {% assign eyebrow = 'Teaching &amp; service' %}
     {% assign backurl = '/teaching/' %}
-    {% assign backlabel = 'All teaching &amp; outreach' %}
+    {% assign backlabel = 'All teaching &amp; service' %}
     {% assign marker = page.type %}
   {% else %}
     {% assign eyebrow = 'Item' %}
@@ -37,6 +37,7 @@ layout: default
     {% when 'Guest seminar' %}{% assign pillclass = 'blue' %}
     {% when 'Outreach talk' %}{% assign pillclass = 'coral' %}
     {% when 'Open-source resource' %}{% assign pillclass = 'coral' %}
+    {% when 'Science policy' %}{% assign pillclass = 'amber' %}
     {% when 'Teaching certificate' %}{% assign pillclass = 'blue' %}
     {% else %}{% assign pillclass = 'teal' %}
   {% endcase %}

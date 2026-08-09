@@ -69,11 +69,13 @@ $ink-soft        : #5f5e5a;
   padding: 1em 0 2.5em;
   border-bottom: 1px solid $rule;
 
+  /* Sized to match .threads__label so the affiliation reads as a peer of the
+     section headings rather than as fine print. */
   &__eyebrow {
     display: block;
     font-family: $monospace;
-    font-size: 0.72em;
-    letter-spacing: 0.12em;
+    font-size: 0.95em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $accent;
     margin-bottom: 1.1em;

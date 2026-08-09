@@ -1,5 +1,5 @@
 ---
-title: "Splash High School Outreach Teacher "
+title: "Splash High School Outreach Teacher"
 collection: teaching
 type: "Lecture"
 permalink: /teaching/splash

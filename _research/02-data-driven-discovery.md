@@ -12,7 +12,7 @@ tags:
   - real-time control
   - DIII-D
   - Alcator C-Mod
-  - ASDEX-Upgrage
+  - ASDEX Upgrade
   - JET
   - TCV
 ---
@@ -23,17 +23,19 @@ This matters practically. ITER and most tokamak pilot-plant concepts need to ope
 
 ## The database
 
-My thesis work assembled the largest cross-machine density limit database I am aware of: 258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV. The device list matters, because it covers both metal-wall and carbon-wall machines. That coverage is what makes it possible to separate physics from machine-specific artifacts. I have released a portion of this dataset from Alcator C-Mod in the [**Open Density Limit Database**](https://github.com/MIT-PSFC/open_density_limit_database) (other data restricted by user agreements).
+My thesis work assembled the largest cross-machine density limit database I am aware of: 258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV ([Maris *et al.*, in preparation]({{ site.baseurl }}/publication/collisionality-scaling)). The device list matters, because it covers both metal-wall and carbon-wall machines. That coverage is what makes it possible to separate physics from machine-specific artifacts. I have released a portion of this dataset from Alcator C-Mod in the [**Open Density Limit Database**](https://github.com/MIT-PSFC/open_density_limit_database) (other data restricted by user agreements).
 
 ## The result
 
-A machine-learning pipeline applied to this database identified a two-variable, dimensionless boundary in the plasma edge, dominated by effective edge collisionality. It predicts density limit disruptions substantially more accurately than the Greenwald fraction, with a false positive rate of 2.3% at 95% true positive rate against 13.4% for Greenwald, and it retains the accuracy of a far more sophisticated neural network while remaining a closed-form expression a physicist can read.
+A machine-learning pipeline applied to this database identified a two-variable, dimensionless boundary in the plasma edge, dominated by effective edge collisionality ([Maris *et al.*, *NF* 2025]({{ site.baseurl }}/publication/correlation-density)). It predicts density limit disruptions substantially more accurately than the Greenwald fraction, with a false positive rate of 2.3% at 95% true positive rate against 13.4% for Greenwald, and it retains the accuracy of a far more sophisticated neural network while remaining a closed-form expression a physicist can read.
 
 Because burning plasmas have naturally low edge collisionality from self-heating, the scaling suggests they may be able to operate at higher densities than the Greenwald limit would indicate.
 
+The approach grew out of earlier work using deliberately simple classifiers to recover disruption boundaries from Alcator C-Mod data, and out of tests of how such predictors behave when the training distribution does not match the machine they are deployed on ([Rath *et al.*, *JPP* 2022]({{ site.baseurl }}/publication/data-augmentation-surrogates)).
+
 ## Closing the loop: control experiments
 
-An accurate stability metric is only interesting if a machine can act on it. I earned run time at DIII-D to test exactly that. The "DL Supervisor" control scheme regulated the machine-learned risk metric in real time by lowering the density target or raising neutral-beam heating.
+An accurate stability metric is only interesting if a machine can act on it. I earned run time at DIII-D to test exactly that. The "DL Supervisor" control scheme regulated the machine-learned risk metric in real time by lowering the density target or raising neutral-beam heating ([Maris *et al.*, *NF* 2026]({{ site.baseurl }}/publication/realtime-avoidance-density-limit)).
 
 Density limit instabilities were reproducibly suppressed. Applying an analogous H-mode metric during a current ramp-down also avoided an H/L back-transition. These are the first demonstrations of real-time density limit avoidance using machine-learned risk metrics.
 

@@ -11,4 +11,4 @@ venue: 'In preparation'
 
 The capstone paper of my thesis work, currently in preparation.
 
-It presents the complete multi-machine density limit database (258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges across Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV), identifies a collisionality scaling that improves upon the Greenwald Limit in both L-mode and H-mode.
+It presents the complete multi-machine density limit database (258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges across Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV), and identifies a collisionality scaling that improves on the Greenwald limit in both L-mode and H-mode.

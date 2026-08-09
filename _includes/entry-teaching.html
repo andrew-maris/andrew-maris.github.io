@@ -2,6 +2,8 @@
 
 {% if post.type == 'Open-source resource' %}
   {% assign pillclass = 'coral' %}
+{% elsif post.type == 'Science policy' %}
+  {% assign pillclass = 'amber' %}
 {% elsif post.type == 'Teaching certificate' %}
   {% assign pillclass = 'blue' %}
 {% else %}
