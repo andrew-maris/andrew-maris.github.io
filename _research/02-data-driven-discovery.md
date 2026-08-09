@@ -22,7 +22,7 @@ This matters practically. ITER and most tokamak pilot-plant concepts need to ope
 
 My thesis work assembled the largest cross-machine density-limit database I am aware of: **258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges** spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV. The device list matters, because it covers both metal-wall and carbon-wall machines. That coverage is what makes it possible to separate physics from machine-specific artifacts.
 
-I have released this as the **Open Density Limit Database**, so that other groups can test their own scalings and stability models against the same discharges rather than reassembling the data from scratch. Cross-machine density-limit studies have historically been hard to compare because everyone builds a private dataset with different shot selection and different definitions of what counts as a density limit. Making the data and those choices public is the only way that changes.
+I have released this as the [**Open Density Limit Database**](https://github.com/MIT-PSFC/open_density_limit_database), so that other groups can test their own scalings and stability models against the same discharges rather than reassembling the data from scratch. Cross-machine density-limit studies have historically been hard to compare because everyone builds a private dataset with different shot selection and different definitions of what counts as a density limit. Making the data and those choices public is the only way that changes.
 
 ## The result
 
