@@ -1,5 +1,5 @@
 ---
-title: "Context: economic implications of disruptions"
+title: "Context: economic impact of disruptions"
 subtitle: "What a disruption costs, and why fusion energy matters."
 eyebrow: "03 / Ongoing"
 thread: 3
@@ -18,7 +18,7 @@ Almost every paper on tokamak disruptions opens by asserting that disruptions th
 
 Working with colleagues at MIT, I built a model quantifying the effect of disruptions on the Levelized Cost Of Electricity (LCOE) from a tokamak power plant. It identifies the mechanisms by which disruptions raise costs and depress revenue, introduces metrics for each, and folds them into a standard LCOE framework. We also proposed a classification of disruption types based on time-to-return-to-operations, which turns out to be the variable that matters.
 
-The most consequential finding was not about the plasma. It was that **cryogenic system recovery time may be the dominant cost driver**. If a disruption warms the magnets and cryostat, the days-to-weeks warming and cooling cycle dwarfs the direct damage. That reframes the engineering priority, since protecting the cryogenic system from thermal excursions may buy more availability than preventing the disruption itself.
+The most consequential finding was not about the plasma. It was that cryogenic system recovery time may be the dominant cost driver. If a disruption warms the magnets and cryostat, the days-to-weeks warming and cooling cycle dwarfs the direct damage. That reframes the engineering priority, since protecting the cryogenic system from thermal excursions may buy more availability than preventing the disruption itself.
 
 ## Getting the results in front of decision-makers
 

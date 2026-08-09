@@ -11,10 +11,6 @@ tags:
   - multi-machine database
   - real-time control
   - DIII-D
-  - Alcator C-Mod
-  - ASDEX Upgrade
-  - JET
-  - TCV
 ---
 
 Tokamaks disrupt or experience H/L back-transitions when they are pushed to high density. Where that limit sits is usually estimated with the Greenwald scaling, an empirical formula from 1988 built on line-averaged density, plasma current, and minor radius. It is remarkably simple, widely used, but does not involve the plasma edge at all, even though it has been understood for decades that the disruptive boundary is set by edge physics.
@@ -30,8 +26,6 @@ My thesis work assembled the largest cross-machine density limit database I am a
 A machine-learning pipeline applied to this database identified a two-variable, dimensionless boundary in the plasma edge, dominated by effective edge collisionality ([Maris *et al.*, *NF* 2025]({{ site.baseurl }}/publication/correlation-density)). It predicts density limit disruptions substantially more accurately than the Greenwald fraction, with a false positive rate of 2.3% at 95% true positive rate against 13.4% for Greenwald, and it retains the accuracy of a far more sophisticated neural network while remaining a closed-form expression a physicist can read.
 
 Because burning plasmas have naturally low edge collisionality from self-heating, the scaling suggests they may be able to operate at higher densities than the Greenwald limit would indicate.
-
-The approach grew out of earlier work using deliberately simple classifiers to recover disruption boundaries from Alcator C-Mod data, and out of tests of how such predictors behave when the training distribution does not match the machine they are deployed on ([Rath *et al.*, *JPP* 2022]({{ site.baseurl }}/publication/data-augmentation-surrogates)).
 
 ## Closing the loop: control experiments
 
