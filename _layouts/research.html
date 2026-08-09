@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main">
+  <article class="wide" itemscope itemtype="http://schema.org/CreativeWork">
+    <header class="research-header">
+      <span class="mono">{{ page.eyebrow | default: "Research" }}</span>
+      <h1 class="research-header__title" itemprop="headline">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="research-header__subtitle">{{ page.subtitle }}</p>{% endif %}
+      {% if page.tags %}
+        <div class="tag-row">
+          {% for tag in page.tags %}<span class="tag tag--{{ page.thread }}">{{ tag }}</span>{% endfor %}
+        </div>
+      {% endif %}
+    </header>
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    <div class="research-nav">
+      <a href="{{ base_path }}/research/">← All research</a>
+    </div>
+  </article>
+</div>

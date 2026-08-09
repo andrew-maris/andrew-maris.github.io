@@ -1,0 +1,8 @@
+{% include base_path %}
+
+<a class="thread thread--{{ post.thread }}" href="{{ base_path }}{{ post.url }}">
+  <span class="thread__index">{{ post.eyebrow }}</span>
+  <h2 class="thread__title">{{ post.title }}</h2>
+  <p class="thread__subtitle">{{ post.subtitle }}</p>
+  <p class="thread__body">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</p>
+</a>
