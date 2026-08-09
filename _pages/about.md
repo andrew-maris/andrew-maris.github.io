@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <div class="hero">
-  <span class="hero__eyebrow">DOE FES Postdoctoral Fellow · Columbia University</span>
+  <span class="hero__eyebrow">DOE Fusion Energy Sciences Postdoctoral Fellow · Columbia University</span>
   <h1 class="hero__title">Understanding and taming plasma instabilities</h1>
   <p class="hero__lede">I use simulations and machine learning to understand the consequences and causes of plasma instabilities in magnetic fusion devices. My work spans electromagnetic loads in the W7-X stellarator, interpretable machine learning analysis of the tokamak density limit, real-time instability-avoidance experiments at DIII-D, and the economic impact of disruptive instabilities.</p>
   <div class="tag-row">
