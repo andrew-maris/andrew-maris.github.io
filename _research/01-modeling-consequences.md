@@ -1,5 +1,5 @@
 ---
-title: "Consequences: electromagnetic loads in W7-X"
+title: "Consequences: electromagnetic loads induced in W7-X"
 subtitle: "What happens to the machine when the plasma pops."
 eyebrow: "01 / Current work"
 thread: 1
