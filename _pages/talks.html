@@ -34,7 +34,3 @@ author_profile: false
 <div class="entries">
 {% for post in all %}{% if post.type == "Poster" %}{% include entry-talk.html %}{% endif %}{% endfor %}
 </div>
-
-{% if site.talkmap_link == true %}
-<p style="margin-top:2em"><a href="{{ base_path }}/talkmap.html">See a map of all the places I have given a talk</a></p>
-{% endif %}
