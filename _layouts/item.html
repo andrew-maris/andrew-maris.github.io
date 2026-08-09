@@ -33,7 +33,6 @@ layout: default
   {% case page.type %}
     {% when 'Invited talk' %}{% assign pillclass = 'teal' %}
     {% when 'Contributed talk' %}{% assign pillclass = 'purple' %}
-    {% when 'Contributed talk (ITER Session)' %}{% assign pillclass = 'teal' %}
     {% when 'Poster' %}{% assign pillclass = 'gray' %}
     {% when 'Guest seminar' %}{% assign pillclass = 'blue' %}
     {% when 'Outreach talk' %}{% assign pillclass = 'coral' %}
@@ -44,7 +43,7 @@ layout: default
 {% elsif page.venue contains 'preparation' or page.venue contains 'preprint' or page.venue contains 'arXiv' %}
   {% assign pillclass = 'amber' %}
 {% elsif page.venue contains 'Conference' or page.venue contains 'Symposium' %}
-  {% assign pillclass = 'purple' %}
+  {% assign pillclass = 'teal' %}
 {% elsif page.venue contains 'Thesis' or page.venue contains 'Report' %}
   {% assign pillclass = 'gray' %}
 {% else %}
