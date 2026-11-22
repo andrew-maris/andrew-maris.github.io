@@ -4,7 +4,7 @@ collection: teaching
 type: "Guest lecture & Q&A"
 permalink: /teaching/business-of-fusion-iap
 venue: "MIT Independent Activities Period (IAP)"
-date: 2026-03-10
+date: 2026-01-26
 location: "Cambridge, MA"
 summary: "A session on the fusion policy landscape and how students can get involved in it."
 ---

@@ -18,7 +18,12 @@ author_profile: false
 
 <p class="section-label">Teaching</p>
 <div class="entries">
-{% for post in all %}{% unless post.type == "Open-source resource" or post.type == "Science policy" %}{% include entry-teaching.html %}{% endunless %}{% endfor %}
+{% for post in all %}{% unless post.type == "Open-source resource" or post.type == "Science policy" or post.type == "Service" %}{% include entry-teaching.html %}{% endunless %}{% endfor %}
+</div>
+
+<p class="section-label">Service</p>
+<div class="entries">
+{% for post in all %}{% if post.type == "Service" %}{% include entry-teaching.html %}{% endif %}{% endfor %}
 </div>
 
 <p class="section-label">Science policy</p>

@@ -40,7 +40,7 @@ redirect_from:
   </div>
   <div>
     <p class="recent__label">Elsewhere</p>
-    <p class="recent__value"><a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ site.author.orcid }}">ORCID</a><br/><span class="recent__meta">{{ site.author.email }}</span></p>
+    <p class="recent__value"><a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="https://github.com/{{ site.author.github }}">GitHub</a> · <a href="{{ site.author.orcid }}">ORCID</a> · <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a> · <a href="{{ site.baseurl }}/files/Maris_CV_2026-11.pdf">CV</a><br/><span class="recent__meta">{{ site.author.email }}</span></p>
   </div>
 </div>
 
