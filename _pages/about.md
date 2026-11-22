@@ -44,10 +44,13 @@ redirect_from:
   </div>
 </div>
 
-<div style="margin-top:2.6em;padding-top:1.6em;border-top:1px solid #e6e6e6">
+<div class="bio" style="margin-top:2.6em;padding-top:1.6em;border-top:1px solid #e6e6e6">
+<img class="bio__photo" src="{{ site.baseurl }}/images/headshot-crop.jpg" alt="Portrait of Andrew D. Maris" width="140" height="140">
+<div class="bio__text">
 <p style="margin:0 0 1em"><strong>Dr. Andrew D. Maris</strong> is a DOE Fusion Energy Sciences Postdoctoral Fellow at Columbia University, where he works with Prof. Carlos Paz-Soldan on transient off-normal phenomena in magnetically confined fusion plasmas.</p>
 
 <p style="margin:0 0 1em">He earned his B.A. from Carleton College in 2019 and his Ph.D. from the MIT Plasma Science and Fusion Center in 2026, advised by Cristina Rea, Robert Granetz, and Earl Marmar. His thesis, <em>Prediction and control of the tokamak density limit</em>, used machine-learning methods to understand, predict, and ultimately avoid the density limit in tokamaks.</p>
 
 <p style="margin:0">Alongside plasma physics he works on fusion energy economics and policy, including published work on the cost of plasma disruptions to fusion power plants. He is a co-founder and former President of the <a href="https://www.fusiondelegation.org/">Fusion Student Delegation</a>, a student-led organization connecting early-career researchers with policymakers in the fusion ecosystem.</p>
+</div>
 </div>

@@ -397,3 +397,27 @@ $ink-soft        : #5f5e5a;
   background: $thread-1-soft;
   color: $thread-1;
 }
+
+// Homepage bio with headshot
+.bio {
+  @media (min-width: 46em) {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.8em;
+  }
+
+  &__photo {
+    display: block;
+    flex: none;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 0 1.2em;
+  }
+
+  &__text {
+    flex: 1;
+    min-width: 0;
+  }
+}
