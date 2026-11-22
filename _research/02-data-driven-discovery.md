@@ -19,7 +19,7 @@ This matters practically. ITER and most tokamak pilot-plant concepts need to ope
 
 ## The database
 
-My thesis work assembled the largest cross-machine density limit database I am aware of: 258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV ([Maris *et al.*, in preparation]({{ site.baseurl }}/publication/collisionality-scaling)). The device list matters, because it covers both metal-wall and carbon-wall machines. That coverage is what makes it possible to separate physics from machine-specific artifacts. I have released a portion of this dataset from Alcator C-Mod in the [**Open Density Limit Database**](https://github.com/MIT-PSFC/open_density_limit_database) (other data restricted by user agreements).
+My thesis work assembled the largest cross-machine density limit database I am aware of: 258 L-mode density limits, 90 H-mode density limits, and 4,739 non-disruptive discharges spanning Alcator C-Mod, ASDEX Upgrade, DIII-D, JET, and TCV ([Maris *et al.*, accepted in *Physical Review Letters*]({{ site.baseurl }}/publication/collisionality-scaling)). The device list matters, because it covers both metal-wall and carbon-wall machines. That coverage is what makes it possible to separate physics from machine-specific artifacts. I have released a portion of this dataset from Alcator C-Mod in the [**Open Density Limit Database**](https://github.com/MIT-PSFC/open_density_limit_database) (other data restricted by user agreements).
 
 ## The result
 
@@ -37,4 +37,4 @@ Density limit instabilities were reproducibly suppressed. Applying an analogous 
 
 - [Real-time avoidance of the L-mode and H-mode density limit via machine-learned stability metrics]({{ site.baseurl }}/publication/realtime-avoidance-density-limit), *Nuclear Fusion* (2026)
 - [Correlation of the L-mode density limit with edge collisionality]({{ site.baseurl }}/publication/correlation-density), *Nuclear Fusion* (2025)
-- Collisionality scaling of the tokamak density limit, *in preparation* (2026)
+- [Collisionality scaling of the tokamak density limit]({{ site.baseurl }}/publication/collisionality-scaling), *Physical Review Letters*, accepted (2026)

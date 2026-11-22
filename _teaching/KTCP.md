@@ -5,7 +5,7 @@ type: "Teaching certificate"
 permalink: /teaching/KTCP
 venue: "Teaching and Learning Lab, Massachusetts Institute of Technology"
 date: 2024-12-10
-location: "Cambridge, USA"
+location: "Cambridge, MA"
 ---
 
 * Studied modern pedagogical methods (ex. backwards course design, active learning, utilizing generative AI) in semester-long program from MIT Teaching and Learning Lab

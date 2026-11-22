@@ -2,6 +2,7 @@
 title: "Publications"
 layout: home
 permalink: /publications/
+description: "Papers and preprints by Andrew D. Maris on the tokamak density limit, disruption prediction, electromagnetic loads, and fusion energy economics."
 author_profile: false
 ---
 

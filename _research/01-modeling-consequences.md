@@ -17,7 +17,7 @@ Whenever the magnetic field inside a fusion device changes quickly, currents are
 
 Tokamak disruptions are the most dramatic version of this problem, since several megaamperes (MAs) of plasma current terminate in milliseconds. But rapid plasma quenches have also been observed in [stellarators such as W7-X](https://www.sciencedirect.com/science/article/pii/S0920379623000765) carrying MAs of diamagnetic current, and future quasi-axisymmetric (QA) devices may also carry large toroidal plasma currents. The complex three-dimensional geometry of stellarator vessels and other components can concentrate these forces locally, motivating careful electromagnetic analysis.
 
-This is the focus of my DOE Fusion Energy Sciences Postdoctoral Fellowship at Columbia, working with Prof. Carlos Paz-Soldan and Research Scientist Chris Hansen. The fellowship is organized around expanding modeling capability for inductively-induced currents along three axes:
+This is the focus of my DOE Fusion Energy Sciences Postdoctoral Fellowship at Columbia, working with Prof. Carlos Paz-Soldan and Research Scientist Chris Hansen. The fellowship is organized around expanding modeling capability for induced currents along three axes:
 
 ## 1) Breadth
 

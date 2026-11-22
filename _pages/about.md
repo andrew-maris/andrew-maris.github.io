@@ -2,6 +2,7 @@
 permalink: /
 title: "Andrew D. Maris"
 excerpt: "Understanding and taming plasma instabilities."
+description: "Andrew D. Maris is a DOE Fusion Energy Sciences Postdoctoral Fellow at Columbia University who studies the consequences and causes of plasma instabilities in magnetic fusion devices."
 layout: home
 author_profile: false
 redirect_from: 
@@ -35,7 +36,7 @@ redirect_from:
   </div>
   <div>
     <p class="recent__label">Recent talk</p>
-    <p class="recent__value">Collisionality scaling of the tokamak density limit<br/><span class="recent__meta">APS DPP 2025, ITER Session</span></p>
+    <p class="recent__value"><a href="{{ site.baseurl }}/talks/w7x-thincurr-APS-2026">Calculation of induced currents and forces in W7-X utilizing ThinCurr</a><br/><span class="recent__meta">APS DPP 2026, Chicago</span></p>
   </div>
   <div>
     <p class="recent__label">Elsewhere</p>

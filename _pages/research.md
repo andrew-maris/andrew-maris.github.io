@@ -2,6 +2,7 @@
 title: "Research"
 layout: home
 permalink: /research/
+description: "Research by Andrew D. Maris on disruptive plasma instabilities: electromagnetic loads in W7-X, interpretable machine learning for the tokamak density limit, and the economics of disruptions."
 author_profile: false
 ---
 
